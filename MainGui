@@ -1,0 +1,198 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local labeltitle = Instance.new("TextLabel")
+local labelcredit = Instance.new("TextLabel")
+local KnifeCase3 = Instance.new("TextButton")
+local KnifeCase2 = Instance.new("TextButton")
+local KnifeCase1 = Instance.new("TextButton")
+local GunCase2 = Instance.new("TextButton")
+local GunCase1 = Instance.new("TextButton")
+local ColourCase = Instance.new("TextButton")
+local ShardCase = Instance.new("TextButton")
+local GunCase3 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+main.BorderColor3 = Color3.fromRGB(255, 0, 110)
+main.Position = UDim2.new(0.571544051, 0, 0.330658197, 0)
+main.Size = UDim2.new(0, 444, 0, 389)
+main.Active = true
+main.Draggable = true
+
+labeltitle.Name = "label title"
+labeltitle.Parent = main
+labeltitle.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+labeltitle.BorderSizePixel = 0
+labeltitle.Size = UDim2.new(0, 444, 0, 33)
+labeltitle.Font = Enum.Font.Sarpanch
+labeltitle.Text = "Knife Party - Crate GUI"
+labeltitle.TextColor3 = Color3.fromRGB(255, 0, 110)
+labeltitle.TextSize = 14.000
+
+labelcredit.Name = "label credit"
+labelcredit.Parent = main
+labelcredit.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+labelcredit.BorderSizePixel = 0
+labelcredit.Position = UDim2.new(0, 0, 0.947104335, 0)
+labelcredit.Size = UDim2.new(0, 444, 0, 20)
+labelcredit.Font = Enum.Font.SourceSans
+labelcredit.Text = "By Uncapped Legcay"
+labelcredit.TextColor3 = Color3.fromRGB(255, 0, 110)
+labelcredit.TextSize = 14.000
+
+KnifeCase3.Name = "KnifeCase3"
+KnifeCase3.Parent = main
+KnifeCase3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+KnifeCase3.BorderSizePixel = 0
+KnifeCase3.Position = UDim2.new(0.0270270295, 0, 0.314736009, 0)
+KnifeCase3.Size = UDim2.new(0, 420, 0, 34)
+KnifeCase3.Font = Enum.Font.SourceSans
+KnifeCase3.Text = "Knife Case 3"
+KnifeCase3.TextColor3 = Color3.fromRGB(255, 0, 110)
+KnifeCase3.TextSize = 14.000
+KnifeCase3.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "KnifeCase3")
+                end
+        end
+end)
+
+KnifeCase2.Name = "KnifeCase2"
+KnifeCase2.Parent = main
+KnifeCase2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+KnifeCase2.BorderSizePixel = 0
+KnifeCase2.Position = UDim2.new(0.0270270295, 0, 0.209472269, 0)
+KnifeCase2.Size = UDim2.new(0, 420, 0, 34)
+KnifeCase2.Font = Enum.Font.SourceSans
+KnifeCase2.Text = "Knife Case 2"
+KnifeCase2.TextColor3 = Color3.fromRGB(255, 0, 110)
+KnifeCase2.TextSize = 14.000
+KnifeCase2.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "KnifeCase2")
+                end
+        end
+end)
+
+KnifeCase1.Name = "KnifeCase1"
+KnifeCase1.Parent = main
+KnifeCase1.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+KnifeCase1.BorderSizePixel = 0
+KnifeCase1.Position = UDim2.new(0.0270270295, 0, 0.104208514, 0)
+KnifeCase1.Size = UDim2.new(0, 420, 0, 34)
+KnifeCase1.Font = Enum.Font.SourceSans
+KnifeCase1.Text = "Knife Case 1"
+KnifeCase1.TextColor3 = Color3.fromRGB(255, 0, 110)
+KnifeCase1.TextSize = 14.000
+KnifeCase1.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "KnifeCase1")
+                end
+        end
+end)
+
+GunCase2.Name = "GunCase2"
+GunCase2.Parent = main
+GunCase2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+GunCase2.BorderSizePixel = 0
+GunCase2.Position = UDim2.new(0.0270270295, 0, 0.732849836, 0)
+GunCase2.Size = UDim2.new(0, 420, 0, 34)
+GunCase2.Font = Enum.Font.SourceSans
+GunCase2.Text = "Gun Case 2"
+GunCase2.TextColor3 = Color3.fromRGB(255, 0, 110)
+GunCase2.TextSize = 14.000
+GunCase2.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "GunCase2")
+                end
+        end
+end)
+
+GunCase1.Name = "GunCase1"
+GunCase1.Parent = main
+GunCase1.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+GunCase1.BorderSizePixel = 0
+GunCase1.Position = UDim2.new(0.0270270295, 0, 0.630022049, 0)
+GunCase1.Size = UDim2.new(0, 420, 0, 34)
+GunCase1.Font = Enum.Font.SourceSans
+GunCase1.Text = "Gun Case 1"
+GunCase1.TextColor3 = Color3.fromRGB(255, 0, 110)
+GunCase1.TextSize = 14.000
+GunCase1.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "GunCase1")
+                end
+        end
+end)
+
+ColourCase.Name = "ColourCase"
+ColourCase.Parent = main
+ColourCase.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ColourCase.BorderSizePixel = 0
+ColourCase.Position = UDim2.new(0.0270270295, 0, 0.420134455, 0)
+ColourCase.Size = UDim2.new(0, 420, 0, 34)
+ColourCase.Font = Enum.Font.SourceSans
+ColourCase.Text = "Colour Case"
+ColourCase.TextColor3 = Color3.fromRGB(255, 0, 110)
+ColourCase.TextSize = 14.000
+ColourCase.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "ColorCase")
+                end
+        end
+end)
+
+ShardCase.Name = "ShardCase"
+ShardCase.Parent = main
+ShardCase.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ShardCase.BorderSizePixel = 0
+ShardCase.Position = UDim2.new(0.0270270295, 0, 0.525532901, 0)
+ShardCase.Size = UDim2.new(0, 420, 0, 34)
+ShardCase.Font = Enum.Font.SourceSans
+ShardCase.Text = "Shard Case"
+ShardCase.TextColor3 = Color3.fromRGB(255, 0, 110)
+ShardCase.TextSize = 14.000
+ShardCase.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "ShardCase")
+                end
+        end
+end)
+
+GunCase3.Name = "GunCase3"
+GunCase3.Parent = main
+GunCase3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+GunCase3.BorderSizePixel = 0
+GunCase3.Position = UDim2.new(0.0270270295, 0, 0.835677624, 0)
+GunCase3.Size = UDim2.new(0, 420, 0, 34)
+GunCase3.Font = Enum.Font.SourceSans
+GunCase3.Text = "Gun Case 3"
+GunCase3.TextColor3 = Color3.fromRGB(255, 0, 110)
+GunCase3.TextSize = 14.000
+GunCase3.MouseButton1Down:connect(function()
+        getgenv().farmer = true;
+        while wait() do
+                if getgenv().farmer == true then
+                        game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("0.00000000001", "Money", "GunCase3")
+                end
+        end
+end)
