@@ -47,7 +47,6 @@ ADMIN.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 end)
 
-
 UICorner_2.CornerRadius = UDim.new(0, 10)
 UICorner_2.Parent = ADMIN
 
@@ -122,7 +121,7 @@ KC3.Font = Enum.Font.SciFi
 KC3.Text = "KnifeCase3 Farm"
 KC3.TextColor3 = Color3.fromRGB(26, 255, 198)
 KC3.TextSize = 20.000
-KC2.MouseButton1Down:connect(function()
+KC3.MouseButton1Down:connect(function()
 	getgenv().farmer = true;
 	while wait() do
 		if getgenv().farmer == true then
@@ -174,9 +173,9 @@ UICorner_8.CornerRadius = UDim.new(0, 10)
 UICorner_8.Parent = AntiAfk
 
 Side.Name = "Side"
-Side.Parent = ScreenGui
+Side.Parent = Frame
 Side.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
-Side.Position = UDim2.new(0.294696361, 0, 0.305771828, 0)
+Side.Position = UDim2.new(-0.000915646553, 0, -1.32918358e-05, 0)
 Side.Size = UDim2.new(0, 44, 0, 242)
 Side.Font = Enum.Font.SourceSans
 Side.Text = " "
@@ -187,14 +186,14 @@ UICorner_9.CornerRadius = UDim.new(0, 10)
 UICorner_9.Parent = Side
 
 Top.Name = "Top"
-Top.Parent = ScreenGui
+Top.Parent = Frame
 Top.BackgroundColor3 = Color3.fromRGB(26, 255, 198)
-Top.Position = UDim2.new(0.294696361, 0, 0.305771828, 0)
-Top.Size = UDim2.new(0, 433, 0, 38)
+Top.Position = UDim2.new(-0.000915668323, 0, -1.33672038e-05, 0)
+Top.Size = UDim2.new(0, 433, 0, 39)
 Top.Font = Enum.Font.SourceSans
 Top.Text = " "
 Top.TextColor3 = Color3.fromRGB(0, 0, 0)
 Top.TextSize = 14.000
 
-UICorner_10.CornerRadius = UDim.new(0, 9)
+UICorner_10.CornerRadius = UDim.new(0, 10)
 UICorner_10.Parent = Top
