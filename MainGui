@@ -1,4 +1,5 @@
 
+
 local main = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -31,12 +32,49 @@ local UICorner_14 = Instance.new("UICorner")
 local TopFlat = Instance.new("Frame")
 local TopCurved = Instance.new("Frame")
 local UICorner_15 = Instance.new("UICorner")
-local SideFlat = Instance.new("Frame")
-local SideCurved = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
 local AntiAfk = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
+local Label_3 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local Label_4 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local Side = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local TopCurved_2 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local Label_5 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local Label_6 = Instance.new("TextLabel")
+local UICorner_22 = Instance.new("UICorner")
+local Label_7 = Instance.new("TextLabel")
+local UICorner_23 = Instance.new("UICorner")
+local Label_8 = Instance.new("TextLabel")
+local UICorner_24 = Instance.new("UICorner")
+local Label_9 = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local Label_10 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local Label_11 = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local Label_12 = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local Label_13 = Instance.new("TextLabel")
+local UICorner_29 = Instance.new("UICorner")
+local Label_14 = Instance.new("TextLabel")
+local UICorner_30 = Instance.new("UICorner")
+local Label_15 = Instance.new("TextLabel")
+local UICorner_31 = Instance.new("UICorner")
+local Label_16 = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
+local Label_17 = Instance.new("TextLabel")
+local UICorner_33 = Instance.new("UICorner")
+local Label_18 = Instance.new("TextLabel")
+local UICorner_34 = Instance.new("UICorner")
+local Label_19 = Instance.new("TextLabel")
+local UICorner_35 = Instance.new("UICorner")
+
+--Properties:
 
 main.Name = "main"
 main.Parent = game.CoreGui
@@ -44,8 +82,8 @@ main.Parent = game.CoreGui
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = main
 MainFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-MainFrame.Position = UDim2.new(0.211686879, 0, 0.17335473, 0)
-MainFrame.Size = UDim2.new(0, 573, 0, 329)
+MainFrame.Position = UDim2.new(0.207276732, 0, 0.17335473, 0)
+MainFrame.Size = UDim2.new(0, 577, 0, 329)
 MainFrame.Active = true
 MainFrame.Draggable = true
 
@@ -67,8 +105,8 @@ UICorner_2.Parent = Label
 Label_2.Name = "Label"
 Label_2.Parent = MainFrame
 Label_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_2.Position = UDim2.new(0.104712039, 0, 0.130555555, 0)
-Label_2.Size = UDim2.new(0, 182, 0, 43)
+Label_2.Position = UDim2.new(0, 0, 0.13055554, 0)
+Label_2.Size = UDim2.new(0, 181, 0, 43)
 Label_2.Font = Enum.Font.SciFi
 Label_2.Text = "Advantages"
 Label_2.TextColor3 = Color3.fromRGB(0, 255, 179)
@@ -79,7 +117,7 @@ UICorner_3.Parent = Label_2
 SC.Name = "SC"
 SC.Parent = MainFrame
 SC.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-SC.Position = UDim2.new(0.708551466, 0, 0.377931058, 0)
+SC.Position = UDim2.new(0.313404143, 0, 0.456958413, 0)
 SC.Size = UDim2.new(0, 125, 0, 28)
 SC.Font = Enum.Font.SciFi
 SC.Text = "ShardCase"
@@ -100,7 +138,7 @@ UICorner_4.Parent = SC
 OwlHub.Name = "OwlHub"
 OwlHub.Parent = MainFrame
 OwlHub.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OwlHub.Position = UDim2.new(0.129144862, 0, 0.791839421, 0)
+OwlHub.Position = UDim2.new(0.0216925219, 0, 0.791839421, 0)
 OwlHub.Size = UDim2.new(0, 154, 0, 41)
 OwlHub.Font = Enum.Font.SciFi
 OwlHub.Text = "Aimbot / ESP"
@@ -110,13 +148,14 @@ OwlHub.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))()
 end)
 
+
 UICorner_5.CornerRadius = UDim.new(0, 10)
 UICorner_5.Parent = OwlHub
 
 KC3.Name = "KC3"
 KC3.Parent = MainFrame
 KC3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-KC3.Position = UDim2.new(0.465968579, 0, 0.378115386, 0)
+KC3.Position = UDim2.new(0.783126295, 0, 0.329483151, 0)
 KC3.Size = UDim2.new(0, 125, 0, 28)
 KC3.Font = Enum.Font.SciFi
 KC3.Text = "KnifeCase3"
@@ -131,13 +170,14 @@ KC3.MouseButton1Down:connect(function()
 	end
 end)
 
+
 UICorner_6.CornerRadius = UDim.new(0, 10)
 UICorner_6.Parent = KC3
 
 KC2.Name = "KC2"
 KC2.Parent = MainFrame
 KC2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-KC2.Position = UDim2.new(0.708551466, 0, 0.247759372, 0)
+KC2.Position = UDim2.new(0.545639873, 0, 0.329826236, 0)
 KC2.Size = UDim2.new(0, 125, 0, 28)
 KC2.Font = Enum.Font.SciFi
 KC2.Text = "KnifeCase2"
@@ -158,7 +198,7 @@ UICorner_7.Parent = KC2
 KC1.Name = "KC1"
 KC1.Parent = MainFrame
 KC1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-KC1.Position = UDim2.new(0.465968579, 0, 0.25, 0)
+KC1.Position = UDim2.new(0.313455582, 0, 0.332066864, 0)
 KC1.Size = UDim2.new(0, 125, 0, 28)
 KC1.Font = Enum.Font.SciFi
 KC1.Text = "KnifeCase1"
@@ -179,7 +219,7 @@ UICorner_8.Parent = KC1
 GC3.Name = "GC3"
 GC3.Parent = MainFrame
 GC3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-GC3.Position = UDim2.new(0.465968579, 0, 0.833174288, 0)
+GC3.Position = UDim2.new(0.309989393, 0, 0.790621102, 0)
 GC3.Size = UDim2.new(0, 125, 0, 28)
 GC3.Font = Enum.Font.SciFi
 GC3.Text = "GunCase3"
@@ -200,7 +240,7 @@ UICorner_9.Parent = GC3
 GC2.Name = "GC2"
 GC2.Parent = MainFrame
 GC2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-GC2.Position = UDim2.new(0.708551466, 0, 0.680183887, 0)
+GC2.Position = UDim2.new(0.545639873, 0, 0.674104869, 0)
 GC2.Size = UDim2.new(0, 125, 0, 28)
 GC2.Font = Enum.Font.SciFi
 GC2.Text = "GunCase2"
@@ -215,13 +255,14 @@ GC2.MouseButton1Down:connect(function()
 	end
 end)
 
+
 UICorner_10.CornerRadius = UDim.new(0, 10)
 UICorner_10.Parent = GC2
 
 GC1.Name = "GC1"
 GC1.Parent = MainFrame
 GC1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-GC1.Position = UDim2.new(0.465968579, 0, 0.682589531, 0)
+GC1.Position = UDim2.new(0.311722457, 0, 0.676510513, 0)
 GC1.Size = UDim2.new(0, 125, 0, 28)
 GC1.Font = Enum.Font.SciFi
 GC1.Text = "GunCase1"
@@ -242,7 +283,7 @@ UICorner_11.Parent = GC1
 ESP.Name = "ESP"
 ESP.Parent = MainFrame
 ESP.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-ESP.Position = UDim2.new(0.129144862, 0, 0.437512755, 0)
+ESP.Position = UDim2.new(0.0216925219, 0, 0.437512755, 0)
 ESP.Size = UDim2.new(0, 154, 0, 41)
 ESP.Font = Enum.Font.SciFi
 ESP.Text = "ESP"
@@ -258,7 +299,7 @@ UICorner_12.Parent = ESP
 CC.Name = "CC"
 CC.Parent = MainFrame
 CC.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-CC.Position = UDim2.new(0.465968579, 0, 0.494222403, 0)
+CC.Position = UDim2.new(0.543958187, 0, 0.454708725, 0)
 CC.Size = UDim2.new(0, 125, 0, 28)
 CC.Font = Enum.Font.SciFi
 CC.Text = "ColorCase"
@@ -279,7 +320,7 @@ UICorner_13.Parent = CC
 Admin.Name = "Admin"
 Admin.Parent = MainFrame
 Admin.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Admin.Position = UDim2.new(0.129144862, 0, 0.266574621, 0)
+Admin.Position = UDim2.new(0.0216925219, 0, 0.260495603, 0)
 Admin.Size = UDim2.new(0, 154, 0, 41)
 Admin.Font = Enum.Font.SciFi
 Admin.Text = "Admin"
@@ -307,25 +348,10 @@ TopCurved.Size = UDim2.new(0, 573, 0, 47)
 UICorner_15.CornerRadius = UDim.new(0, 10)
 UICorner_15.Parent = TopCurved
 
-SideFlat.Name = "SideFlat"
-SideFlat.Parent = MainFrame
-SideFlat.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-SideFlat.BorderSizePixel = 0
-SideFlat.Position = UDim2.new(0.031413611, 0, 0.0380787253, 0)
-SideFlat.Size = UDim2.new(0, 42, 0, 315)
-
-SideCurved.Name = "SideCurved"
-SideCurved.Parent = MainFrame
-SideCurved.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-SideCurved.Size = UDim2.new(0, 60, 0, 329)
-
-UICorner_16.CornerRadius = UDim.new(0, 10)
-UICorner_16.Parent = SideCurved
-
 AntiAfk.Name = "Anti-Afk"
 AntiAfk.Parent = MainFrame
 AntiAfk.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-AntiAfk.Position = UDim2.new(0.129144877, 0, 0.614529848, 0)
+AntiAfk.Position = UDim2.new(0.0216925368, 0, 0.617569387, 0)
 AntiAfk.Size = UDim2.new(0, 154, 0, 41)
 AntiAfk.Font = Enum.Font.SciFi
 AntiAfk.Text = "Anti-Afk"
@@ -335,16 +361,241 @@ AntiAfk.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
 end)
 
-UICorner_17.CornerRadius = UDim.new(0, 10)
-UICorner_17.Parent = AntiAfk
+UICorner_16.CornerRadius = UDim.new(0, 10)
+UICorner_16.Parent = AntiAfk
 
 Title.Name = "Title"
 Title.Parent = MainFrame
 Title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0, 0, 0.041666694, 0)
-Title.Size = UDim2.new(0, 573, 0, 31)
+Title.Position = UDim2.new(0.344887346, 0, 0.0203901026, 0)
+Title.Size = UDim2.new(0, 178, 0, 31)
 Title.Font = Enum.Font.SciFi
 Title.Text = "Knife-Party GUI"
 Title.TextColor3 = Color3.fromRGB(0, 255, 179)
 Title.TextSize = 20.000
+
+Label_3.Name = "Label"
+Label_3.Parent = MainFrame
+Label_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_3.Position = UDim2.new(0.326848567, 0, 0.255175531, 0)
+Label_3.Size = UDim2.new(0, 96, 0, 24)
+Label_3.Font = Enum.Font.SciFi
+Label_3.Text = "Knife Cases"
+Label_3.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_3.TextSize = 14.000
+
+UICorner_17.Parent = Label_3
+
+Label_4.Name = "Label"
+Label_4.Parent = MainFrame
+Label_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_4.Position = UDim2.new(0.326848567, 0, 0.604719639, 0)
+Label_4.Size = UDim2.new(0, 96, 0, 24)
+Label_4.Font = Enum.Font.SciFi
+Label_4.Text = "Knife Cases"
+Label_4.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_4.TextSize = 14.000
+
+UICorner_18.Parent = Label_4
+
+Side.Name = "Side"
+Side.Parent = MainFrame
+Side.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Side.Position = UDim2.new(-0.310225308, 0, -0.00147365581, 0)
+Side.Size = UDim2.new(0, 166, 0, 329)
+Side.Active = true
+Side.Draggable = true
+
+
+UICorner_19.CornerRadius = UDim.new(0, 10)
+UICorner_19.Parent = Side
+
+TopCurved_2.Name = "TopCurved"
+TopCurved_2.Parent = Side
+TopCurved_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TopCurved_2.Position = UDim2.new(-0.0029963851, 0, -0.00303951371, 0)
+TopCurved_2.Size = UDim2.new(0, 166, 0, 47)
+
+UICorner_20.CornerRadius = UDim.new(0, 10)
+UICorner_20.Parent = TopCurved_2
+
+Label_5.Name = "Label"
+Label_5.Parent = Side
+Label_5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Label_5.Position = UDim2.new(0.192771077, 0, 0.0279427841, 0)
+Label_5.Size = UDim2.new(0, 101, 0, 28)
+Label_5.Font = Enum.Font.SciFi
+Label_5.Text = "Note"
+Label_5.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_5.TextSize = 14.000
+
+UICorner_21.Parent = Label_5
+
+Label_6.Name = "Label"
+Label_6.Parent = Side
+Label_6.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_6.Position = UDim2.new(0.0178343654, 0, 0.142713606, 0)
+Label_6.Size = UDim2.new(0, 163, 0, 17)
+Label_6.Font = Enum.Font.SciFi
+Label_6.Text = "This was my first script"
+Label_6.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_6.TextSize = 14.000
+
+UICorner_22.Parent = Label_6
+
+Label_7.Name = "Label"
+Label_7.Parent = Side
+Label_7.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_7.Position = UDim2.new(0.0178343654, 0, 0.194385335, 0)
+Label_7.Size = UDim2.new(0, 163, 0, 17)
+Label_7.Font = Enum.Font.SciFi
+Label_7.Text = "dont expect it to be too"
+Label_7.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_7.TextSize = 14.000
+
+UICorner_23.Parent = Label_7
+
+Label_8.Name = "Label"
+Label_8.Parent = Side
+Label_8.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_8.Position = UDim2.new(0.0178343654, 0, 0.246057063, 0)
+Label_8.Size = UDim2.new(0, 163, 0, 17)
+Label_8.Font = Enum.Font.SciFi
+Label_8.Text = "good also use alt"
+Label_8.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_8.TextSize = 14.000
+
+UICorner_24.Parent = Label_8
+
+Label_9.Name = "Label"
+Label_9.Parent = Side
+Label_9.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_9.Position = UDim2.new(0.0178343654, 0, 0.434506893, 0)
+Label_9.Size = UDim2.new(0, 163, 0, 17)
+Label_9.Font = Enum.Font.SciFi
+Label_9.Text = "Admins were dumb"
+Label_9.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_9.TextSize = 14.000
+
+UICorner_25.Parent = Label_9
+
+Label_10.Name = "Label"
+Label_10.Parent = Side
+Label_10.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_10.Position = UDim2.new(0.0178343654, 0, 0.486178637, 0)
+Label_10.Size = UDim2.new(0, 163, 0, 17)
+Label_10.Font = Enum.Font.SciFi
+Label_10.Text = "and somehow dont know"
+Label_10.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_10.TextSize = 14.000
+
+UICorner_26.Parent = Label_10
+
+Label_11.Name = "Label"
+Label_11.Parent = Side
+Label_11.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_11.Position = UDim2.new(0.0178343654, 0, 0.53785038, 0)
+Label_11.Size = UDim2.new(0, 163, 0, 17)
+Label_11.Font = Enum.Font.SciFi
+Label_11.Text = "how to fix a script"
+Label_11.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_11.TextSize = 14.000
+
+UICorner_27.Parent = Label_11
+
+Label_12.Name = "Label"
+Label_12.Parent = Side
+Label_12.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_12.Position = UDim2.new(0.0178343654, 0, 0.589522123, 0)
+Label_12.Size = UDim2.new(0, 163, 0, 17)
+Label_12.Font = Enum.Font.SciFi
+Label_12.Text = "by not making"
+Label_12.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_12.TextSize = 14.000
+
+UICorner_28.Parent = Label_12
+
+Label_13.Name = "Label"
+Label_13.Parent = Side
+Label_13.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_13.Position = UDim2.new(0.0178343654, 0, 0.641193867, 0)
+Label_13.Size = UDim2.new(0, 163, 0, 17)
+Label_13.Font = Enum.Font.SciFi
+Label_13.Text = "THE REMOTE VISIBLE"
+Label_13.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_13.TextSize = 14.000
+
+UICorner_29.Parent = Label_13
+
+Label_14.Name = "Label"
+Label_14.Parent = Side
+Label_14.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_14.Position = UDim2.new(0.0178343654, 0, 0.69286561, 0)
+Label_14.Size = UDim2.new(0, 163, 0, 17)
+Label_14.Font = Enum.Font.SciFi
+Label_14.Text = "then say they fixed script"
+Label_14.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_14.TextSize = 14.000
+
+UICorner_30.Parent = Label_14
+
+Label_15.Name = "Label"
+Label_15.Parent = Side
+Label_15.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_15.Position = UDim2.new(0.0178343654, 0, 0.744537354, 0)
+Label_15.Size = UDim2.new(0, 163, 0, 17)
+Label_15.Font = Enum.Font.SciFi
+Label_15.Text = "because its not free"
+Label_15.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_15.TextSize = 14.000
+
+UICorner_31.Parent = Label_15
+
+Label_16.Name = "Label"
+Label_16.Parent = Side
+Label_16.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_16.Position = UDim2.new(0.0178343654, 0, 0.917789638, 0)
+Label_16.Size = UDim2.new(0, 163, 0, 17)
+Label_16.Font = Enum.Font.SciFi
+Label_16.Text = "-Owner"
+Label_16.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_16.TextSize = 14.000
+
+UICorner_32.Parent = Label_16
+
+Label_17.Name = "Label"
+Label_17.Parent = Side
+Label_17.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_17.Position = UDim2.new(0.0178343654, 0, 0.747576892, 0)
+Label_17.Size = UDim2.new(0, 163, 0, 17)
+Label_17.Font = Enum.Font.SciFi
+Label_17.Text = "(crates)"
+Label_17.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_17.TextSize = 14.000
+
+UICorner_33.Parent = Label_17
+
+Label_18.Name = "Label"
+Label_18.Parent = Side
+Label_18.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_18.Position = UDim2.new(0.0178343654, 0, 0.297728807, 0)
+Label_18.Size = UDim2.new(0, 163, 0, 17)
+Label_18.Font = Enum.Font.SciFi
+Label_18.Text = "as crate farm uses"
+Label_18.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_18.TextSize = 14.000
+
+UICorner_34.Parent = Label_18
+
+Label_19.Name = "Label"
+Label_19.Parent = Side
+Label_19.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Label_19.Position = UDim2.new(0.0178343654, 0, 0.34940055, 0)
+Label_19.Size = UDim2.new(0, 163, 0, 17)
+Label_19.Font = Enum.Font.SciFi
+Label_19.Text = "a lot of money"
+Label_19.TextColor3 = Color3.fromRGB(0, 255, 179)
+Label_19.TextSize = 14.000
+
+UICorner_35.Parent = Label_19
