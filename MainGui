@@ -1,251 +1,160 @@
 
-
-local main = Instance.new("ScreenGui")
-local MainFrame = Instance.new("Frame")
+local GUICOPY = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local Label = Instance.new("TextLabel")
+local Crates = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
-local Label_2 = Instance.new("TextLabel")
+local GunCrateFrame = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
-local SC = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local OwlHub = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local KC3 = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local KC2 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local KC1 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local GC3 = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local GC2 = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local GC1 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local ESP = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local CC = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local Admin = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local TopFlat = Instance.new("Frame")
-local TopCurved = Instance.new("Frame")
-local UICorner_15 = Instance.new("UICorner")
-local AntiAfk = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local Title = Instance.new("TextLabel")
-local Label_3 = Instance.new("TextLabel")
-local UICorner_17 = Instance.new("UICorner")
-local Label_4 = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
 local Side = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local GC2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local GC1 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local GC3 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local KnifeCrateFrame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local Side_2 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local CC = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local SC = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local KC2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local KC1 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local KC3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Home = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local Advantages = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local AdminFrame = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local Side_3 = Instance.new("Frame")
 local UICorner_19 = Instance.new("UICorner")
-local TopCurved_2 = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local CMDX = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
-local Label_5 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local IY = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local Label_6 = Instance.new("TextLabel")
+local AimbotFrame = Instance.new("Frame")
 local UICorner_22 = Instance.new("UICorner")
-local Label_7 = Instance.new("TextLabel")
+local Side_4 = Instance.new("Frame")
 local UICorner_23 = Instance.new("UICorner")
-local Label_8 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local CMDX_2 = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
-local Label_9 = Instance.new("TextLabel")
+local OwlHub = Instance.new("TextLabel")
+local Visual = Instance.new("Frame")
 local UICorner_25 = Instance.new("UICorner")
-local Label_10 = Instance.new("TextLabel")
+local UnnamedESP = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local UnnamedESP_2 = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local Label_11 = Instance.new("TextLabel")
 local UICorner_27 = Instance.new("UICorner")
-local Label_12 = Instance.new("TextLabel")
+local Side_5 = Instance.new("Frame")
 local UICorner_28 = Instance.new("UICorner")
-local Label_13 = Instance.new("TextLabel")
+local TracerESP = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local TracerESP_2 = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
-local Label_14 = Instance.new("TextLabel")
 local UICorner_30 = Instance.new("UICorner")
-local Label_15 = Instance.new("TextLabel")
+local Side_6 = Instance.new("Frame")
 local UICorner_31 = Instance.new("UICorner")
-local Label_16 = Instance.new("TextLabel")
+local Side_7 = Instance.new("Frame")
 local UICorner_32 = Instance.new("UICorner")
-local Label_17 = Instance.new("TextLabel")
-local UICorner_33 = Instance.new("UICorner")
-local Label_18 = Instance.new("TextLabel")
-local UICorner_34 = Instance.new("UICorner")
-local Label_19 = Instance.new("TextLabel")
-local UICorner_35 = Instance.new("UICorner")
+local Side_8 = Instance.new("Frame")
+local HomeButton = Instance.new("ImageButton")
+local VisualsButton = Instance.new("ImageButton")
+local CrateButton = Instance.new("ImageButton")
+local AdvantagesButton = Instance.new("ImageButton")
 
 --Properties:
 
-main.Name = "main"
-main.Parent = game.CoreGui
+GUICOPY.Name = "GUICOPY"
+GUICOPY.Parent = game.CoreGui
 
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = main
-MainFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-MainFrame.Position = UDim2.new(0.207276732, 0, 0.17335473, 0)
-MainFrame.Size = UDim2.new(0, 577, 0, 329)
-MainFrame.Active = true
-MainFrame.Draggable = true
+Main.Name = "Main"
+Main.Parent = GUICOPY
+Main.BackgroundColor3 = Color3.fromRGB(41, 53, 68)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.364932239, 0, 0.191011235, 0)
+Main.Size = UDim2.new(0, 450, 0, 370)
+Main.Active = true
+Main.Draggable = true
 
-UICorner.CornerRadius = UDim.new(0, 10)
-UICorner.Parent = MainFrame
+UICorner.Parent = Main
 
-Label.Name = "Label"
-Label.Parent = MainFrame
-Label.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label.Position = UDim2.new(0.397905767, 0, 0.130555555, 0)
-Label.Size = UDim2.new(0, 345, 0, 43)
-Label.Font = Enum.Font.SciFi
-Label.Text = "Crate Farm (Uses a lot of money)"
-Label.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label.TextSize = 14.000
+Crates.Name = "Crates"
+Crates.Parent = Main
+Crates.BackgroundColor3 = Color3.fromRGB(41, 53, 68)
+Crates.BorderSizePixel = 0
+Crates.Position = UDim2.new(0.0856082141, 0, -0.000620365143, 0)
+Crates.Size = UDim2.new(0, 412, 0, 370)
+Crates.Visible = false
 
-UICorner_2.Parent = Label
+UICorner_2.Parent = Crates
 
-Label_2.Name = "Label"
-Label_2.Parent = MainFrame
-Label_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_2.Position = UDim2.new(0, 0, 0.13055554, 0)
-Label_2.Size = UDim2.new(0, 181, 0, 43)
-Label_2.Font = Enum.Font.SciFi
-Label_2.Text = "Advantages"
-Label_2.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_2.TextSize = 14.000
+GunCrateFrame.Name = "GunCrate Frame"
+GunCrateFrame.Parent = Crates
+GunCrateFrame.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+GunCrateFrame.BorderSizePixel = 0
+GunCrateFrame.Position = UDim2.new(0.0372962356, 0, 0.514068902, 0)
+GunCrateFrame.Size = UDim2.new(0, 381, 0, 168)
 
-UICorner_3.Parent = Label_2
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = GunCrateFrame
 
-SC.Name = "SC"
-SC.Parent = MainFrame
-SC.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-SC.Position = UDim2.new(0.313404143, 0, 0.456958413, 0)
-SC.Size = UDim2.new(0, 125, 0, 28)
-SC.Font = Enum.Font.SciFi
-SC.Text = "ShardCase"
-SC.TextColor3 = Color3.fromRGB(0, 255, 179)
-SC.TextSize = 20.000
-SC.MouseButton1Down:connect(function()
-	getgenv().farmer = true;
-	while wait() do
-		if getgenv().farmer == true then
-			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "ShardCase")
-		end
-	end
-end)
+Side.Name = "Side"
+Side.Parent = GunCrateFrame
+Side.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+Side.BorderSizePixel = 0
+Side.Position = UDim2.new(-0.000419475138, 0, 0, 0)
+Side.Size = UDim2.new(0, 8, 0, 168)
 
-UICorner_4.CornerRadius = UDim.new(0, 10)
-UICorner_4.Parent = SC
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = Side
 
-OwlHub.Name = "OwlHub"
-OwlHub.Parent = MainFrame
-OwlHub.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-OwlHub.Position = UDim2.new(0.0216925219, 0, 0.791839421, 0)
-OwlHub.Size = UDim2.new(0, 154, 0, 41)
-OwlHub.Font = Enum.Font.SciFi
-OwlHub.Text = "Aimbot / ESP"
-OwlHub.TextColor3 = Color3.fromRGB(0, 255, 179)
-OwlHub.TextSize = 20.000
-OwlHub.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))()
-end)
-
-
-UICorner_5.CornerRadius = UDim.new(0, 10)
-UICorner_5.Parent = OwlHub
-
-KC3.Name = "KC3"
-KC3.Parent = MainFrame
-KC3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-KC3.Position = UDim2.new(0.783126295, 0, 0.329483151, 0)
-KC3.Size = UDim2.new(0, 125, 0, 28)
-KC3.Font = Enum.Font.SciFi
-KC3.Text = "KnifeCase3"
-KC3.TextColor3 = Color3.fromRGB(0, 255, 179)
-KC3.TextSize = 20.000
-KC3.MouseButton1Down:connect(function()
-	getgenv().farmer = true;
-	while wait() do
-		if getgenv().farmer == true then
-			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "KnifeCase3")
-		end
-	end
-end)
-
-
-UICorner_6.CornerRadius = UDim.new(0, 10)
-UICorner_6.Parent = KC3
-
-KC2.Name = "KC2"
-KC2.Parent = MainFrame
-KC2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-KC2.Position = UDim2.new(0.545639873, 0, 0.329826236, 0)
-KC2.Size = UDim2.new(0, 125, 0, 28)
-KC2.Font = Enum.Font.SciFi
-KC2.Text = "KnifeCase2"
-KC2.TextColor3 = Color3.fromRGB(0, 255, 179)
-KC2.TextSize = 20.000
-KC2.MouseButton1Down:connect(function()
-	getgenv().farmer = true;
-	while wait() do
-		if getgenv().farmer == true then
-			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "KnifeCase2")
-		end
-	end
-end)
-
-UICorner_7.CornerRadius = UDim.new(0, 10)
-UICorner_7.Parent = KC2
-
-KC1.Name = "KC1"
-KC1.Parent = MainFrame
-KC1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-KC1.Position = UDim2.new(0.313455582, 0, 0.332066864, 0)
-KC1.Size = UDim2.new(0, 125, 0, 28)
-KC1.Font = Enum.Font.SciFi
-KC1.Text = "KnifeCase1"
-KC1.TextColor3 = Color3.fromRGB(0, 255, 179)
-KC1.TextSize = 20.000
-KC1.MouseButton1Down:connect(function()
-	getgenv().farmer = true;
-	while wait() do
-		if getgenv().farmer == true then
-			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "KnifeCase1")
-		end
-	end
-end)
-
-UICorner_8.CornerRadius = UDim.new(0, 10)
-UICorner_8.Parent = KC1
-
-GC3.Name = "GC3"
-GC3.Parent = MainFrame
-GC3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-GC3.Position = UDim2.new(0.309989393, 0, 0.790621102, 0)
-GC3.Size = UDim2.new(0, 125, 0, 28)
-GC3.Font = Enum.Font.SciFi
-GC3.Text = "GunCase3"
-GC3.TextColor3 = Color3.fromRGB(0, 255, 179)
-GC3.TextSize = 20.000
-GC3.MouseButton1Down:connect(function()
-	getgenv().farmer = true;
-	while wait() do
-		if getgenv().farmer == true then
-			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "GunCase3")
-		end
-	end
-end)
-
-UICorner_9.CornerRadius = UDim.new(0, 10)
-UICorner_9.Parent = GC3
+TextLabel.Parent = GunCrateFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.237117201, 0, -0.00432869792, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 38)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Gun Crates"
+TextLabel.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel.TextSize = 14.000
 
 GC2.Name = "GC2"
-GC2.Parent = MainFrame
-GC2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-GC2.Position = UDim2.new(0.545639873, 0, 0.674104869, 0)
-GC2.Size = UDim2.new(0, 125, 0, 28)
-GC2.Font = Enum.Font.SciFi
-GC2.Text = "GunCase2"
-GC2.TextColor3 = Color3.fromRGB(0, 255, 179)
-GC2.TextSize = 20.000
+GC2.Parent = GunCrateFrame
+GC2.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+GC2.BorderSizePixel = 0
+GC2.Position = UDim2.new(0.367454082, 0, 0.22023809, 0)
+GC2.Size = UDim2.new(0, 105, 0, 124)
+GC2.Font = Enum.Font.SourceSans
+GC2.Text = "Gun Case 2"
+GC2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GC2.TextSize = 14.000
 GC2.MouseButton1Down:connect(function()
 	getgenv().farmer = true;
 	while wait() do
@@ -255,19 +164,18 @@ GC2.MouseButton1Down:connect(function()
 	end
 end)
 
-
-UICorner_10.CornerRadius = UDim.new(0, 10)
-UICorner_10.Parent = GC2
+UICorner_5.Parent = GC2
 
 GC1.Name = "GC1"
-GC1.Parent = MainFrame
-GC1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-GC1.Position = UDim2.new(0.311722457, 0, 0.676510513, 0)
-GC1.Size = UDim2.new(0, 125, 0, 28)
-GC1.Font = Enum.Font.SciFi
-GC1.Text = "GunCase1"
-GC1.TextColor3 = Color3.fromRGB(0, 255, 179)
-GC1.TextSize = 20.000
+GC1.Parent = GunCrateFrame
+GC1.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+GC1.BorderSizePixel = 0
+GC1.Position = UDim2.new(0.0472440943, 0, 0.22023809, 0)
+GC1.Size = UDim2.new(0, 105, 0, 124)
+GC1.Font = Enum.Font.SourceSans
+GC1.Text = "Gun Case 1"
+GC1.TextColor3 = Color3.fromRGB(255, 255, 255)
+GC1.TextSize = 14.000
 GC1.MouseButton1Down:connect(function()
 	getgenv().farmer = true;
 	while wait() do
@@ -277,34 +185,69 @@ GC1.MouseButton1Down:connect(function()
 	end
 end)
 
-UICorner_11.CornerRadius = UDim.new(0, 10)
-UICorner_11.Parent = GC1
+UICorner_6.Parent = GC1
 
-ESP.Name = "ESP"
-ESP.Parent = MainFrame
-ESP.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-ESP.Position = UDim2.new(0.0216925219, 0, 0.437512755, 0)
-ESP.Size = UDim2.new(0, 154, 0, 41)
-ESP.Font = Enum.Font.SciFi
-ESP.Text = "ESP"
-ESP.TextColor3 = Color3.fromRGB(0, 255, 179)
-ESP.TextSize = 20.000
-ESP.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/fernandoagoncalves/universal-esp/main/esp.lua", true))()
+GC3.Name = "GC3"
+GC3.Parent = GunCrateFrame
+GC3.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+GC3.BorderSizePixel = 0
+GC3.Position = UDim2.new(0.687664032, 0, 0.22023809, 0)
+GC3.Size = UDim2.new(0, 105, 0, 124)
+GC3.Font = Enum.Font.SourceSans
+GC3.Text = "Gun Case 3"
+GC3.TextColor3 = Color3.fromRGB(255, 255, 255)
+GC3.TextSize = 14.000
+GC3.MouseButton1Down:connect(function()
+	getgenv().farmer = true;
+	while wait() do
+		if getgenv().farmer == true then
+			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "GunCase3")
+		end
+	end
 end)
 
-UICorner_12.CornerRadius = UDim.new(0, 10)
-UICorner_12.Parent = ESP
+UICorner_7.Parent = GC3
+
+KnifeCrateFrame.Name = "KnifeCrateFrame"
+KnifeCrateFrame.Parent = Crates
+KnifeCrateFrame.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+KnifeCrateFrame.BorderSizePixel = 0
+KnifeCrateFrame.Position = UDim2.new(0.0372962356, 0, 0.0364627242, 0)
+KnifeCrateFrame.Size = UDim2.new(0, 381, 0, 168)
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = KnifeCrateFrame
+
+Side_2.Name = "Side"
+Side_2.Parent = KnifeCrateFrame
+Side_2.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+Side_2.BorderSizePixel = 0
+Side_2.Position = UDim2.new(-0.000419475138, 0, 0, 0)
+Side_2.Size = UDim2.new(0, 8, 0, 168)
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = Side_2
+
+TextLabel_2.Parent = KnifeCrateFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.237117201, 0, -0.00432869792, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 38)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Knife Crates"
+TextLabel_2.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel_2.TextSize = 14.000
 
 CC.Name = "CC"
-CC.Parent = MainFrame
-CC.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-CC.Position = UDim2.new(0.543958187, 0, 0.454708725, 0)
-CC.Size = UDim2.new(0, 125, 0, 28)
-CC.Font = Enum.Font.SciFi
-CC.Text = "ColorCase"
-CC.TextColor3 = Color3.fromRGB(0, 255, 179)
-CC.TextSize = 20.000
+CC.Parent = KnifeCrateFrame
+CC.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+CC.BorderSizePixel = 0
+CC.Position = UDim2.new(0.0472440943, 0, 0.625, 0)
+CC.Size = UDim2.new(0, 169, 0, 50)
+CC.Font = Enum.Font.SourceSans
+CC.Text = "Colour Case"
+CC.TextColor3 = Color3.fromRGB(255, 255, 255)
+CC.TextSize = 14.000
 CC.MouseButton1Down:connect(function()
 	getgenv().farmer = true;
 	while wait() do
@@ -312,290 +255,1515 @@ CC.MouseButton1Down:connect(function()
 			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "ColorCase")
 		end
 	end
+end) 
+
+UICorner_10.Parent = CC
+
+SC.Name = "SC"
+SC.Parent = KnifeCrateFrame
+SC.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+SC.BorderSizePixel = 0
+SC.Position = UDim2.new(0.51968503, 0, 0.625, 0)
+SC.Size = UDim2.new(0, 169, 0, 50)
+SC.Font = Enum.Font.SourceSans
+SC.Text = "Shard Case"
+SC.TextColor3 = Color3.fromRGB(255, 255, 255)
+SC.TextSize = 14.000
+SC.MouseButton1Down:connect(function()
+	getgenv().farmer = true;
+	while wait() do
+		if getgenv().farmer == true then
+			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "ShardCase")
+		end
+	end
 end)
 
-UICorner_13.CornerRadius = UDim.new(0, 10)
-UICorner_13.Parent = CC
+UICorner_11.Parent = SC
 
-Admin.Name = "Admin"
-Admin.Parent = MainFrame
-Admin.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Admin.Position = UDim2.new(0.0216925219, 0, 0.260495603, 0)
-Admin.Size = UDim2.new(0, 154, 0, 41)
-Admin.Font = Enum.Font.SciFi
-Admin.Text = "Admin"
-Admin.TextColor3 = Color3.fromRGB(0, 255, 179)
-Admin.TextSize = 20.000
-Admin.MouseButton1Down:connect(function()
+KC2.Name = "KC2"
+KC2.Parent = KnifeCrateFrame
+KC2.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+KC2.BorderSizePixel = 0
+KC2.Position = UDim2.new(0.367454082, 0, 0.22023809, 0)
+KC2.Size = UDim2.new(0, 105, 0, 50)
+KC2.Font = Enum.Font.SourceSans
+KC2.Text = "Knife Case 2"
+KC2.TextColor3 = Color3.fromRGB(255, 255, 255)
+KC2.TextSize = 14.000
+KC2.MouseButton1Down:connect(function()
+	getgenv().farmer = true;
+	while wait() do
+		if getgenv().farmer == true then
+			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "KnifeCase2")
+		end
+	end
+end)
+
+UICorner_12.Parent = KC2
+
+KC1.Name = "KC1"
+KC1.Parent = KnifeCrateFrame
+KC1.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+KC1.BorderSizePixel = 0
+KC1.Position = UDim2.new(0.0472440943, 0, 0.22023809, 0)
+KC1.Size = UDim2.new(0, 105, 0, 50)
+KC1.Font = Enum.Font.SourceSans
+KC1.Text = "Knife Case 1"
+KC1.TextColor3 = Color3.fromRGB(255, 255, 255)
+KC1.TextSize = 14.000
+KC1.MouseButton1Down:connect(function()
+	getgenv().farmer = true;
+	while wait() do
+		if getgenv().farmer == true then
+			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "KnifeCase1")
+		end
+	end
+end)
+
+UICorner_13.Parent = KC1
+
+KC3.Name = "KC3"
+KC3.Parent = KnifeCrateFrame
+KC3.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+KC3.BorderSizePixel = 0
+KC3.Position = UDim2.new(0.687664032, 0, 0.22023809, 0)
+KC3.Size = UDim2.new(0, 105, 0, 50)
+KC3.Font = Enum.Font.SourceSans
+KC3.Text = "Knife Case 3"
+KC3.TextColor3 = Color3.fromRGB(255, 255, 255)
+KC3.TextSize = 14.000
+KC3.MouseButton1Down:connect(function()
+	getgenv().farmer = true;
+	while wait() do
+		if getgenv().farmer == true then
+			game.ReplicatedStorage.Remotes.BuyCrate:invokeServer("5000", "Money", "KnifeCase3")
+		end
+	end
+end)
+
+UICorner_14.Parent = KC3
+
+Home.Name = "Home"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(41, 53, 68)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0828322768, 0, -0.000785206445, 0)
+Home.Size = UDim2.new(0, 412, 0, 370)
+
+UICorner_15.Parent = Home
+
+Frame.Parent = Home
+Frame.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0509708747, 0, 0.0567567572, 0)
+Frame.Size = UDim2.new(0, 370, 0, 328)
+
+UICorner_16.Parent = Frame
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0567567647, 0, 0.314024389, 0)
+ImageLabel.Size = UDim2.new(0, 65, 0, 65)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=183247080"
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0567567647, 0, 0.097560972, 0)
+ImageLabel_2.Size = UDim2.new(0, 65, 0, 65)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=7360645538"
+
+ImageLabel_3.Parent = Frame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.0567567647, 0, 0.713414609, 0)
+ImageLabel_3.Size = UDim2.new(0, 65, 0, 65)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=6523858394"
+
+ImageLabel_4.Parent = Frame
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.0297297314, 0, 0.506097615, 0)
+ImageLabel_4.Size = UDim2.new(0, 84, 0, 84)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=7702484790"
+
+TextLabel_3.Parent = Home
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.101941749, 0, 0.0567567572, 0)
+TextLabel_3.Size = UDim2.new(0, 328, 0, 32)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Knife Party GUI"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Home
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.101941749, 0, 0.891891897, 0)
+TextLabel_4.Size = UDim2.new(0, 328, 0, 19)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "UI inspired/blatantly copied from skeet.cc and EZ hub"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = Home
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.286407679, 0, 0.378378391, 0)
+TextLabel_5.Size = UDim2.new(0, 133, 0, 32)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Advantages"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = Home
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.286407679, 0, 0.186486498, 0)
+TextLabel_6.Size = UDim2.new(0, 133, 0, 32)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Home"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = Home
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.286407679, 0, 0.732432485, 0)
+TextLabel_7.Size = UDim2.new(0, 133, 0, 32)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Visuals"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+TextLabel_8.Parent = Home
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.286407679, 0, 0.575675726, 0)
+TextLabel_8.Size = UDim2.new(0, 133, 0, 32)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Crate farm"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+Advantages.Name = "Advantages"
+Advantages.Parent = Main
+Advantages.BackgroundColor3 = Color3.fromRGB(41, 53, 68)
+Advantages.BorderSizePixel = 0
+Advantages.Position = UDim2.new(0.0817907155, 0, -0.000455518253, 0)
+Advantages.Size = UDim2.new(0, 412, 0, 370)
+Advantages.Visible = false
+
+UICorner_17.Parent = Advantages
+
+AdminFrame.Name = "AdminFrame"
+AdminFrame.Parent = Advantages
+AdminFrame.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+AdminFrame.BorderSizePixel = 0
+AdminFrame.Position = UDim2.new(0.0372962356, 0, 0.514068902, 0)
+AdminFrame.Size = UDim2.new(0, 381, 0, 168)
+
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = AdminFrame
+
+Side_3.Name = "Side"
+Side_3.Parent = AdminFrame
+Side_3.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+Side_3.BorderSizePixel = 0
+Side_3.Position = UDim2.new(-0.000419475138, 0, 0, 0)
+Side_3.Size = UDim2.new(0, 8, 0, 168)
+
+UICorner_19.CornerRadius = UDim.new(0, 4)
+UICorner_19.Parent = Side_3
+
+TextLabel_9.Parent = AdminFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.237117201, 0, -0.00432869792, 0)
+TextLabel_9.Size = UDim2.new(0, 200, 0, 38)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Admin"
+TextLabel_9.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel_9.TextSize = 14.000
+
+CMDX.Name = "CMDX"
+CMDX.Parent = AdminFrame
+CMDX.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+CMDX.BorderSizePixel = 0
+CMDX.Position = UDim2.new(0.052493453, 0, 0.448052168, 0)
+CMDX.Size = UDim2.new(0, 167, 0, 85)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.TextSize = 14.000
+CMDX.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 end)
 
-UICorner_14.CornerRadius = UDim.new(0, 10)
-UICorner_14.Parent = Admin
+UICorner_20.Parent = CMDX
 
-TopFlat.Name = "TopFlat"
-TopFlat.Parent = MainFrame
-TopFlat.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TopFlat.BorderSizePixel = 0
-TopFlat.Position = UDim2.new(0, 0, 0.0416666679, 0)
-TopFlat.Size = UDim2.new(0, 573, 0, 32)
+TextLabel_10.Parent = AdminFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.0524934381, 0, 0.221861705, 0)
+TextLabel_10.Size = UDim2.new(0, 166, 0, 38)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "CMD-X"
+TextLabel_10.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel_10.TextSize = 14.000
 
-TopCurved.Name = "TopCurved"
-TopCurved.Parent = MainFrame
-TopCurved.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TopCurved.Size = UDim2.new(0, 573, 0, 47)
+TextLabel_11.Parent = AdminFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.535433054, 0, 0.221861705, 0)
+TextLabel_11.Size = UDim2.new(0, 166, 0, 38)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Infinite Yield"
+TextLabel_11.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel_11.TextSize = 14.000
 
-UICorner_15.CornerRadius = UDim.new(0, 10)
-UICorner_15.Parent = TopCurved
-
-AntiAfk.Name = "Anti-Afk"
-AntiAfk.Parent = MainFrame
-AntiAfk.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-AntiAfk.Position = UDim2.new(0.0216925368, 0, 0.617569387, 0)
-AntiAfk.Size = UDim2.new(0, 154, 0, 41)
-AntiAfk.Font = Enum.Font.SciFi
-AntiAfk.Text = "Anti-Afk"
-AntiAfk.TextColor3 = Color3.fromRGB(0, 255, 179)
-AntiAfk.TextSize = 20.000
-AntiAfk.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))()
+IY.Name = "IY"
+IY.Parent = AdminFrame
+IY.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+IY.BorderSizePixel = 0
+IY.Position = UDim2.new(0.535433054, 0, 0.448052168, 0)
+IY.Size = UDim2.new(0, 167, 0, 85)
+IY.Font = Enum.Font.SourceSans
+IY.Text = "IY"
+IY.TextColor3 = Color3.fromRGB(255, 255, 255)
+IY.TextSize = 14.000
+IY.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
-UICorner_16.CornerRadius = UDim.new(0, 10)
-UICorner_16.Parent = AntiAfk
+UICorner_21.Parent = IY
 
-Title.Name = "Title"
-Title.Parent = MainFrame
-Title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0.344887346, 0, 0.0203901026, 0)
-Title.Size = UDim2.new(0, 178, 0, 31)
-Title.Font = Enum.Font.SciFi
-Title.Text = "Knife-Party GUI"
-Title.TextColor3 = Color3.fromRGB(0, 255, 179)
-Title.TextSize = 20.000
+AimbotFrame.Name = "AimbotFrame"
+AimbotFrame.Parent = Advantages
+AimbotFrame.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+AimbotFrame.BorderSizePixel = 0
+AimbotFrame.Position = UDim2.new(0.0372962356, 0, 0.027582407, 0)
+AimbotFrame.Size = UDim2.new(0, 381, 0, 168)
 
-Label_3.Name = "Label"
-Label_3.Parent = MainFrame
-Label_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_3.Position = UDim2.new(0.326848567, 0, 0.255175531, 0)
-Label_3.Size = UDim2.new(0, 96, 0, 24)
-Label_3.Font = Enum.Font.SciFi
-Label_3.Text = "Knife Cases"
-Label_3.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_3.TextSize = 14.000
+UICorner_22.CornerRadius = UDim.new(0, 4)
+UICorner_22.Parent = AimbotFrame
 
-UICorner_17.Parent = Label_3
+Side_4.Name = "Side"
+Side_4.Parent = AimbotFrame
+Side_4.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+Side_4.BorderSizePixel = 0
+Side_4.Position = UDim2.new(-0.000419475138, 0, 0, 0)
+Side_4.Size = UDim2.new(0, 8, 0, 168)
 
-Label_4.Name = "Label"
-Label_4.Parent = MainFrame
-Label_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_4.Position = UDim2.new(0.326848567, 0, 0.604719639, 0)
-Label_4.Size = UDim2.new(0, 96, 0, 24)
-Label_4.Font = Enum.Font.SciFi
-Label_4.Text = "Knife Cases"
-Label_4.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_4.TextSize = 14.000
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = Side_4
 
-UICorner_18.Parent = Label_4
+TextLabel_12.Parent = AimbotFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.237117201, 0, -0.00432869792, 0)
+TextLabel_12.Size = UDim2.new(0, 200, 0, 38)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Aimbot"
+TextLabel_12.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel_12.TextSize = 14.000
 
-Side.Name = "Side"
-Side.Parent = MainFrame
-Side.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Side.Position = UDim2.new(-0.310225308, 0, -0.00147365581, 0)
-Side.Size = UDim2.new(0, 166, 0, 329)
-Side.Active = true
-Side.Draggable = true
+CMDX_2.Name = "CMDX"
+CMDX_2.Parent = AimbotFrame
+CMDX_2.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+CMDX_2.BorderSizePixel = 0
+CMDX_2.Position = UDim2.new(0.0524934381, 0, 0.448052168, 0)
+CMDX_2.Size = UDim2.new(0, 350, 0, 85)
+CMDX_2.Font = Enum.Font.SourceSans
+CMDX_2.Text = "Owl Hub"
+CMDX_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX_2.TextSize = 14.000
+CMDX_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))()
+end)
+
+UICorner_24.Parent = CMDX_2
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = AimbotFrame
+OwlHub.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0.0524934381, 0, 0.221861705, 0)
+OwlHub.Size = UDim2.new(0, 351, 0, 38)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Owl Hub (Includes ESP)"
+OwlHub.TextColor3 = Color3.fromRGB(18, 98, 159)
+OwlHub.TextSize = 14.000
 
 
-UICorner_19.CornerRadius = UDim.new(0, 10)
-UICorner_19.Parent = Side
+Visual.Name = "Visual"
+Visual.Parent = Main
+Visual.BackgroundColor3 = Color3.fromRGB(41, 53, 68)
+Visual.BorderSizePixel = 0
+Visual.Position = UDim2.new(0.0837045312, 0, -0.000308021903, 0)
+Visual.Size = UDim2.new(0, 412, 0, 370)
+Visual.Visible = false
 
-TopCurved_2.Name = "TopCurved"
-TopCurved_2.Parent = Side
-TopCurved_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TopCurved_2.Position = UDim2.new(-0.0029963851, 0, -0.00303951371, 0)
-TopCurved_2.Size = UDim2.new(0, 166, 0, 47)
+UICorner_25.Parent = Visual
 
-UICorner_20.CornerRadius = UDim.new(0, 10)
-UICorner_20.Parent = TopCurved_2
+UnnamedESP.Name = "UnnamedESP"
+UnnamedESP.Parent = Visual
+UnnamedESP.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+UnnamedESP.BorderSizePixel = 0
+UnnamedESP.Position = UDim2.new(0.0315533988, 0, 0.521621644, 0)
+UnnamedESP.Size = UDim2.new(0, 385, 0, 162)
 
-Label_5.Name = "Label"
-Label_5.Parent = Side
-Label_5.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Label_5.Position = UDim2.new(0.192771077, 0, 0.0279427841, 0)
-Label_5.Size = UDim2.new(0, 101, 0, 28)
-Label_5.Font = Enum.Font.SciFi
-Label_5.Text = "Note"
-Label_5.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_5.TextSize = 14.000
+TextLabel_13.Parent = UnnamedESP
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.196870074, 0, -0.00273886276, 0)
+TextLabel_13.Size = UDim2.new(0, 233, 0, 43)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "Unnamed ESP"
+TextLabel_13.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel_13.TextSize = 14.000
 
-UICorner_21.Parent = Label_5
+UnnamedESP_2.Name = "UnnamedESP"
+UnnamedESP_2.Parent = UnnamedESP
+UnnamedESP_2.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+UnnamedESP_2.BorderSizePixel = 0
+UnnamedESP_2.Position = UDim2.new(0.0480952263, 0, 0.262693226, 0)
+UnnamedESP_2.Size = UDim2.new(0, 358, 0, 110)
+UnnamedESP_2.Font = Enum.Font.SourceSans
+UnnamedESP_2.Text = "Unnamed ESP"
+UnnamedESP_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UnnamedESP_2.TextSize = 14.000
+UnnamedESP_2.MouseButton1Down:connect(function()
+	-- Unnamed ESP
 
-Label_6.Name = "Label"
-Label_6.Parent = Side
-Label_6.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_6.Position = UDim2.new(0.0178343654, 0, 0.142713606, 0)
-Label_6.Size = UDim2.new(0, 163, 0, 17)
-Label_6.Font = Enum.Font.SciFi
-Label_6.Text = "This was my first script"
-Label_6.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_6.TextSize = 14.000
+	assert(Drawing, 'exploit not supported')
 
-UICorner_22.Parent = Label_6
+	local UserInputService = game:GetService'UserInputService';
+	local HttpService = game:GetService'HttpService';
+	local GUIService = game:GetService'GuiService';
+	local RunService = game:GetService'RunService';
+	local Players = game:GetService'Players';
+	local LocalPlayer = Players.LocalPlayer;
+	local Camera = workspace.CurrentCamera
+	local Mouse = LocalPlayer:GetMouse();
+	local Menu = {};
+	local MouseHeld = false;
+	local LastRefresh = 0;
+	local OptionsFile = 'IC3_ESP_SETTINGS.dat';
+	local Binding = false;
+	local BindedKey = nil;
+	local OIndex = 0;
+	local LineBox = {};
+	local UIButtons = {};
+	local Sliders = {};
+	local Dragging = false;
+	local DraggingUI = false;
+	local DragOffset = Vector2.new();
+	local DraggingWhat = nil;
+	local OldData = {};
+	local IgnoreList = {};
+	local Red = Color3.new(1, 0, 0);
+	local Green = Color3.new(0, 1, 0);
+	local MenuLoaded = false;
 
-Label_7.Name = "Label"
-Label_7.Parent = Side
-Label_7.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_7.Position = UDim2.new(0.0178343654, 0, 0.194385335, 0)
-Label_7.Size = UDim2.new(0, 163, 0, 17)
-Label_7.Font = Enum.Font.SciFi
-Label_7.Text = "dont expect it to be too"
-Label_7.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_7.TextSize = 14.000
+	shared.MenuDrawingData = shared.MenuDrawingData or { Instances = {} };
+	shared.PlayerData = shared.PlayerData or {};
+	shared.RSName = shared.RSName or ('UnnamedESP_by_ic3-' .. HttpService:GenerateGUID(false));
 
-UICorner_23.Parent = Label_7
+	local GetDataName = shared.RSName .. '-GetData';
+	local UpdateName = shared.RSName .. '-Update';
 
-Label_8.Name = "Label"
-Label_8.Parent = Side
-Label_8.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_8.Position = UDim2.new(0.0178343654, 0, 0.246057063, 0)
-Label_8.Size = UDim2.new(0, 163, 0, 17)
-Label_8.Font = Enum.Font.SciFi
-Label_8.Text = "good also use alt"
-Label_8.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_8.TextSize = 14.000
+	local Debounce = setmetatable({}, {
+		__index = function(t, i)
+			return rawget(t, i) or false
+		end;
+	});
 
-UICorner_24.Parent = Label_8
+	pcall(function() shared.InputBeganCon:disconnect() end);
+	pcall(function() shared.InputEndedCon:disconnect() end);
 
-Label_9.Name = "Label"
-Label_9.Parent = Side
-Label_9.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_9.Position = UDim2.new(0.0178343654, 0, 0.434506893, 0)
-Label_9.Size = UDim2.new(0, 163, 0, 17)
-Label_9.Font = Enum.Font.SciFi
-Label_9.Text = "Admins were dumb"
-Label_9.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_9.TextSize = 14.000
+	function GetMouseLocation()
+		return UserInputService:GetMouseLocation();
+	end
 
-UICorner_25.Parent = Label_9
+	function MouseHoveringOver(Values)
+		local X1, Y1, X2, Y2 = Values[1], Values[2], Values[3], Values[4]
+		local MLocation = GetMouseLocation();
+		return (MLocation.x >= X1 and MLocation.x <= (X1 + (X2 - X1))) and (MLocation.y >= Y1 and MLocation.y <= (Y1 + (Y2 - Y1)));
+	end
 
-Label_10.Name = "Label"
-Label_10.Parent = Side
-Label_10.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_10.Position = UDim2.new(0.0178343654, 0, 0.486178637, 0)
-Label_10.Size = UDim2.new(0, 163, 0, 17)
-Label_10.Font = Enum.Font.SciFi
-Label_10.Text = "and somehow dont know"
-Label_10.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_10.TextSize = 14.000
+	function GetTableData(t) -- basically table.foreach i dont even know why i made this
+		if typeof(t) ~= 'table' then return end
+		return setmetatable(t, {
+			__call = function(t, func)
+				if typeof(func) ~= 'function' then return end;
+				for i, v in pairs(t) do
+					pcall(func, i, v);
+				end
+			end;
+		});
+	end
+	local function Format(format, ...)
+		return string.format(format, ...);
+	end
+	function CalculateValue(Min, Max, Percent)
+		return Min + math.floor(((Max - Min) * Percent) + .5);
+	end
 
-UICorner_26.Parent = Label_10
+	local Options = setmetatable({}, {
+		__call = function(t, ...)
+			local Arguments = {...};
+			local Name = Arguments[1];
+			OIndex = OIndex + 1; -- (typeof(Arguments[3]) == 'boolean' and 1 or 0);
+			rawset(t, Name, setmetatable({
+				Name = Arguments[1];
+				Text = Arguments[2];
+				Value = Arguments[3];
+				DefaultValue = Arguments[3];
+				AllArgs = Arguments;
+				Index = OIndex;
+			}, {
+				__call = function(t, v)
+					if typeof(t.Value) == 'function' then
+						t.Value();
+					elseif typeof(t.Value) == 'EnumItem' then
+						local BT = Menu:GetInstance(Format('%s_BindText', t.Name));
+						Binding = true;
+						local Val = 0
+						while Binding do
+							wait();
+							Val = (Val + 1) % 17;
+							BT.Text = Val <= 8 and '|' or '';
+						end
+						t.Value = BindedKey;
+						BT.Text = tostring(t.Value):match'%w+%.%w+%.(.+)';
+						BT.Position = t.BasePosition + Vector2.new(t.BaseSize.X - BT.TextBounds.X - 20, -10);
+					else
+						local NewValue = v;
+						if NewValue == nil then NewValue = not t.Value; end
+						rawset(t, 'Value', NewValue);
+						if Arguments[2] ~= nil then
+							if typeof(Arguments[3]) == 'number' then
+								local AMT = Menu:GetInstance(Format('%s_AmountText', t.Name));
+								AMT.Text = tostring(t.Value);
+								AMT.Position = t.BasePosition + Vector2.new(t.BaseSize.X - AMT.TextBounds.X - 10, -10);
+							else
+								local Inner = Menu:GetInstance(Format('%s_InnerCircle', t.Name));
+								Inner.Visible = t.Value;
+							end
+						end
+					end
+				end;
+			}));
+		end;
+	})
 
-Label_11.Name = "Label"
-Label_11.Parent = Side
-Label_11.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_11.Position = UDim2.new(0.0178343654, 0, 0.53785038, 0)
-Label_11.Size = UDim2.new(0, 163, 0, 17)
-Label_11.Font = Enum.Font.SciFi
-Label_11.Text = "how to fix a script"
-Label_11.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_11.TextSize = 14.000
+	function Load()
+		local _, Result = pcall(readfile, OptionsFile);
+		if _ then -- extremely ugly code yea i know but i dont care p.s. i hate pcall
+			local _, Table = pcall(HttpService.JSONDecode, HttpService, Result);
+			if _ then
+				for i, v in pairs(Table) do
+					if Options[i] ~= nil and Options[i].Value ~= nil and (typeof(Options[i].Value) == 'boolean' or typeof(Options[i].Value) == 'number') then
+						Options[i].Value = v.Value;
+						pcall(Options[i], v.Value);
+					end
+				end
+			end
+		end
+	end
 
-UICorner_27.Parent = Label_11
+	Options('Enabled', 'ESP Enabled', true);
+	Options('ShowTeam', 'Show Team', false);
+	Options('ShowName', 'Show Names', true);
+	Options('ShowDistance', 'Show Distance', true);
+	Options('ShowHealth', 'Show Health', true);
+	Options('ShowBoxes', 'Show Boxes', true);
+	Options('ShowTracers', 'Show Tracers', true);
+	Options('ShowDot', 'Show Head Dot', false);
+	Options('VisCheck', 'Visibility Check', false);
+	Options('Crosshair', 'Crosshair', false);
+	Options('TextOutline', 'Text Outline', true);
+	Options('TextSize', 'Text Size', syn and 18 or 14, 10, 24); -- cuz synapse fonts look weird???
+	Options('MaxDistance', 'Max Distance', 2500, 100, 5000);
+	Options('RefreshRate', 'Refresh Rate (ms)', 5, 1, 200);
+	Options('MenuKey', 'Menu Key', Enum.KeyCode.F4, 1);
+	Options('ResetSettings', 'Reset Settings', function()
+		for i, v in pairs(Options) do
+			if Options[i] ~= nil and Options[i].Value ~= nil and Options[i].Text ~= nil and (typeof(Options[i].Value) == 'boolean' or typeof(Options[i].Value) == 'number') then
+				Options[i](Options[i].DefaultValue);
+			end
+		end
+	end, 4);
+	Options('LoadSettings', 'Load Settings', Load, 3);
+	Options('SaveSettings', 'Save Settings', function()
+		writefile(OptionsFile, HttpService:JSONEncode(Options));
+	end, 2)
+	-- Options.SaveSettings.Value();
 
-Label_12.Name = "Label"
-Label_12.Parent = Side
-Label_12.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_12.Position = UDim2.new(0.0178343654, 0, 0.589522123, 0)
-Label_12.Size = UDim2.new(0, 163, 0, 17)
-Label_12.Font = Enum.Font.SciFi
-Label_12.Text = "by not making"
-Label_12.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_12.TextSize = 14.000
+	Load();
 
-UICorner_28.Parent = Label_12
+	Options('MenuOpen', nil, true);
 
-Label_13.Name = "Label"
-Label_13.Parent = Side
-Label_13.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_13.Position = UDim2.new(0.0178343654, 0, 0.641193867, 0)
-Label_13.Size = UDim2.new(0, 163, 0, 17)
-Label_13.Font = Enum.Font.SciFi
-Label_13.Text = "THE REMOTE VISIBLE"
-Label_13.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_13.TextSize = 14.000
+	local function Set(t, i, v)
+		t[i] = v;
+	end
+	local function Combine(...)
+		local Output = {};
+		for i, v in pairs{...} do
+			if typeof(v) == 'table' then
+				table.foreach(v, function(i, v)
+					Output[i] = v;
+				end)
+			end
+		end
+		return Output
+	end
+	function IsStringEmpty(String)
+		if type(String) == 'string' then
+			return String:match'^%s+$' ~= nil or #String == 0 or String == '' or false;
+		end
+		return false
+	end
 
-UICorner_29.Parent = Label_13
+	function NewDrawing(InstanceName)
+		local Instance = Drawing.new(InstanceName);
+		return (function(Properties)
+			for i, v in pairs(Properties) do
+				pcall(Set, Instance, i, v);
+			end
+			return Instance;
+		end)
+	end
 
-Label_14.Name = "Label"
-Label_14.Parent = Side
-Label_14.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_14.Position = UDim2.new(0.0178343654, 0, 0.69286561, 0)
-Label_14.Size = UDim2.new(0, 163, 0, 17)
-Label_14.Font = Enum.Font.SciFi
-Label_14.Text = "then say they fixed script"
-Label_14.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_14.TextSize = 14.000
+	function Menu:AddMenuInstace(Name, Instance)
+		if shared.MenuDrawingData.Instances[Name] ~= nil then
+			shared.MenuDrawingData.Instances[Name]:Remove();
+		end
+		shared.MenuDrawingData.Instances[Name] = Instance;
+		return Instance;
+	end
+	function Menu:UpdateMenuInstance(Name)
+		local Instance = shared.MenuDrawingData.Instances[Name];
+		if Instance ~= nil then
+			return (function(Properties)
+				for i, v in pairs(Properties) do
+					-- print(Format('%s %s -> %s', Name, tostring(i), tostring(v)));
+					pcall(Set, Instance, i, v);
+				end
+				return Instance;
+			end)
+		end
+	end
+	function Menu:GetInstance(Name)
+		return shared.MenuDrawingData.Instances[Name];
+	end
 
-UICorner_30.Parent = Label_14
+	function LineBox:Create(Properties)
+		local Box = { Visible = true }; -- prevent errors not really though dont worry bout the Visible = true thing
 
-Label_15.Name = "Label"
-Label_15.Parent = Side
-Label_15.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_15.Position = UDim2.new(0.0178343654, 0, 0.744537354, 0)
-Label_15.Size = UDim2.new(0, 163, 0, 17)
-Label_15.Font = Enum.Font.SciFi
-Label_15.Text = "because its not free"
-Label_15.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_15.TextSize = 14.000
+		local Properties = Combine({
+			Transparency = 1;
+			Thickness = 1;
+			Visible = true;
+		}, Properties);
 
-UICorner_31.Parent = Label_15
+		Box['TopLeft'] = NewDrawing'Line'(Properties);
+		Box['TopRight'] = NewDrawing'Line'(Properties);
+		Box['BottomLeft'] = NewDrawing'Line'(Properties);
+		Box['BottomRight'] = NewDrawing'Line'(Properties);
 
-Label_16.Name = "Label"
-Label_16.Parent = Side
-Label_16.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_16.Position = UDim2.new(0.0178343654, 0, 0.917789638, 0)
-Label_16.Size = UDim2.new(0, 163, 0, 17)
-Label_16.Font = Enum.Font.SciFi
-Label_16.Text = "-Owner"
-Label_16.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_16.TextSize = 14.000
+		function Box:Update(CF, Size, Color, Properties)
+			if not CF or not Size then return end
 
-UICorner_32.Parent = Label_16
+			local TLPos, Visible1 = Camera:WorldToViewportPoint((CF * CFrame.new( Size.X,  Size.Y, 0)).p);
+			local TRPos, Visible2 = Camera:WorldToViewportPoint((CF * CFrame.new(-Size.X,  Size.Y, 0)).p);
+			local BLPos, Visible3 = Camera:WorldToViewportPoint((CF * CFrame.new( Size.X, -Size.Y, 0)).p);
+			local BRPos, Visible4 = Camera:WorldToViewportPoint((CF * CFrame.new(-Size.X, -Size.Y, 0)).p);
+			-- ## BEGIN UGLY CODE
+			if Visible1 then
+				Box['TopLeft'].Visible = true;
+				Box['TopLeft'].Color = Color;
+				Box['TopLeft'].From = Vector2.new(TLPos.X, TLPos.Y);
+				Box['TopLeft'].To = Vector2.new(TRPos.X, TRPos.Y);
+			else
+				Box['TopLeft'].Visible = false;
+			end
+			if Visible2 then
+				Box['TopRight'].Visible = true;
+				Box['TopRight'].Color = Color;
+				Box['TopRight'].From = Vector2.new(TRPos.X, TRPos.Y);
+				Box['TopRight'].To = Vector2.new(BRPos.X, BRPos.Y);
+			else
+				Box['TopRight'].Visible = false;
+			end
+			if Visible3 then
+				Box['BottomLeft'].Visible = true;
+				Box['BottomLeft'].Color = Color;
+				Box['BottomLeft'].From = Vector2.new(BLPos.X, BLPos.Y);
+				Box['BottomLeft'].To = Vector2.new(TLPos.X, TLPos.Y);
+			else
+				Box['BottomLeft'].Visible = false;
+			end
+			if Visible4 then
+				Box['BottomRight'].Visible = true;
+				Box['BottomRight'].Color = Color;
+				Box['BottomRight'].From = Vector2.new(BRPos.X, BRPos.Y);
+				Box['BottomRight'].To = Vector2.new(BLPos.X, BLPos.Y);
+			else
+				Box['BottomRight'].Visible = false;
+			end
+			-- ## END UGLY CODE
+			if Properties then
+				GetTableData(Properties)(function(i, v)
+					pcall(Set, Box['TopLeft'], i, v);
+					pcall(Set, Box['TopRight'], i, v);
+					pcall(Set, Box['BottomLeft'], i, v);
+					pcall(Set, Box['BottomRight'], i, v);
+				end)
+			end
+		end
+		function Box:SetVisible(bool)
+			pcall(Set, Box['TopLeft'], 'Visible', bool);
+			pcall(Set, Box['TopRight'], 'Visible', bool);
+			pcall(Set, Box['BottomLeft'], 'Visible', bool);
+			pcall(Set, Box['BottomRight'], 'Visible', bool);
+		end
+		function Box:Remove()
+			self:SetVisible(false);
+			Box['TopLeft']:Remove();
+			Box['TopRight']:Remove();
+			Box['BottomLeft']:Remove();
+			Box['BottomRight']:Remove();
+		end
 
-Label_17.Name = "Label"
-Label_17.Parent = Side
-Label_17.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_17.Position = UDim2.new(0.0178343654, 0, 0.747576892, 0)
-Label_17.Size = UDim2.new(0, 163, 0, 17)
-Label_17.Font = Enum.Font.SciFi
-Label_17.Text = "(crates)"
-Label_17.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_17.TextSize = 14.000
+		return Box;
+	end
 
-UICorner_33.Parent = Label_17
+	function CreateMenu(NewPosition) -- Create Menu
+		local function FromHex(HEX)
+			HEX = HEX:gsub('#', '');
+			return Color3.fromRGB(tonumber('0x' .. HEX:sub(1, 2)), tonumber('0x' .. HEX:sub(3, 4)), tonumber('0x' .. HEX:sub(5, 6)));
+		end
 
-Label_18.Name = "Label"
-Label_18.Parent = Side
-Label_18.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_18.Position = UDim2.new(0.0178343654, 0, 0.297728807, 0)
-Label_18.Size = UDim2.new(0, 163, 0, 17)
-Label_18.Font = Enum.Font.SciFi
-Label_18.Text = "as crate farm uses"
-Label_18.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_18.TextSize = 14.000
+		local Colors = {
+			Primary = {
+				Main = FromHex'424242';
+				Light = FromHex'6d6d6d';
+				Dark = FromHex'1b1b1b';
+			};
+			Secondary = {
+				Main = FromHex'e0e0e0';
+				Light = FromHex'ffffff';
+				Dark = FromHex'aeaeae';
+			};
+		};
 
-UICorner_34.Parent = Label_18
+		MenuLoaded = false;
 
-Label_19.Name = "Label"
-Label_19.Parent = Side
-Label_19.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Label_19.Position = UDim2.new(0.0178343654, 0, 0.34940055, 0)
-Label_19.Size = UDim2.new(0, 163, 0, 17)
-Label_19.Font = Enum.Font.SciFi
-Label_19.Text = "a lot of money"
-Label_19.TextColor3 = Color3.fromRGB(0, 255, 179)
-Label_19.TextSize = 14.000
+		GetTableData(UIButtons)(function(i, v)
+			v.Instance.Visible = false;
+			v.Instance:Remove();
+		end)
+		GetTableData(Sliders)(function(i, v)
+			v.Instance.Visible = false;
+			v.Instance:Remove();
+		end)
 
-UICorner_35.Parent = Label_19
+		UIButtons = {};
+		Sliders = {};
+
+		local BaseSize = Vector2.new(300, 580);
+		local BasePosition = NewPosition or Vector2.new(Camera.ViewportSize.X / 8 - (BaseSize.X / 2), Camera.ViewportSize.Y / 2 - (BaseSize.Y / 2));
+
+		Menu:AddMenuInstace('CrosshairX', NewDrawing'Line'{
+			Visible = false;
+			Color = Color3.new(0, 1, 0);
+			Transparency = 1;
+			Thickness = 1;
+		});
+		Menu:AddMenuInstace('CrosshairY', NewDrawing'Line'{
+			Visible = false;
+			Color = Color3.new(0, 1, 0);
+			Transparency = 1;
+			Thickness = 1;
+		});
+
+		delay(.025, function() -- since zindex doesnt exist
+			Menu:AddMenuInstace('Main', NewDrawing'Square'{
+				Size = BaseSize;
+				Position = BasePosition;
+				Filled = false;
+				Color = Colors.Primary.Main;
+				Thickness = 3;
+				Visible = true;
+			});
+		end);
+		Menu:AddMenuInstace('TopBar', NewDrawing'Square'{
+			Position = BasePosition;
+			Size = Vector2.new(BaseSize.X, 25);
+			Color = Colors.Primary.Dark;
+			Filled = true;
+			Visible = true;
+		});
+		Menu:AddMenuInstace('TopBarTwo', NewDrawing'Square'{
+			Position = BasePosition + Vector2.new(0, 25);
+			Size = Vector2.new(BaseSize.X, 60);
+			Color = Colors.Primary.Main;
+			Filled = true;
+			Visible = true;
+		});
+		Menu:AddMenuInstace('TopBarText', NewDrawing'Text'{
+			Size = 25;
+			Position = shared.MenuDrawingData.Instances.TopBarTwo.Position + Vector2.new(25, 15);
+			Text = 'Unnamed ESP';
+			Color = Colors.Secondary.Light;
+			Visible = true;
+		});
+		Menu:AddMenuInstace('TopBarTextBR', NewDrawing'Text'{
+			Size = 15;
+			Position = shared.MenuDrawingData.Instances.TopBarTwo.Position + Vector2.new(BaseSize.X - 65, 40);
+			Text = 'by ic3w0lf';
+			Color = Colors.Secondary.Dark;
+			Visible = true;
+		});
+		Menu:AddMenuInstace('Filling', NewDrawing'Square'{
+			Size = BaseSize - Vector2.new(0, 85);
+			Position = BasePosition + Vector2.new(0, 85);
+			Filled = true;
+			Color = Colors.Secondary.Main;
+			Transparency= .5;
+			Visible = true;
+		});
+
+		local CPos = 0;
+
+		GetTableData(Options)(function(i, v)
+			if typeof(v.Value) == 'boolean' and not IsStringEmpty(v.Text) and v.Text ~= nil then
+				CPos = CPos + 25;
+				local BaseSize = Vector2.new(BaseSize.X, 30);
+				local BasePosition = shared.MenuDrawingData.Instances.Filling.Position + Vector2.new(30, v.Index * 25 - 10);
+				UIButtons[#UIButtons + 1] = {
+					Option = v;
+					Instance = Menu:AddMenuInstace(Format('%s_Hitbox', v.Name), NewDrawing'Square'{
+						Position = BasePosition - Vector2.new(30, 15);
+						Size = BaseSize;
+						Visible = false;
+					});
+				};
+				Menu:AddMenuInstace(Format('%s_OuterCircle', v.Name), NewDrawing'Circle'{
+					Radius = 10;
+					Position = BasePosition;
+					Color = Colors.Secondary.Light;
+					Filled = true;
+					Visible = true;
+				});
+				Menu:AddMenuInstace(Format('%s_InnerCircle', v.Name), NewDrawing'Circle'{
+					Radius = 7;
+					Position = BasePosition;
+					Color = Colors.Secondary.Dark;
+					Filled = true;
+					Visible = v.Value;
+				});
+				Menu:AddMenuInstace(Format('%s_Text', v.Name), NewDrawing'Text'{
+					Text = v.Text;
+					Size = 20;
+					Position = BasePosition + Vector2.new(20, -10);
+					Visible = true;
+					Color = Colors.Primary.Dark;
+				});
+			end
+		end)
+		GetTableData(Options)(function(i, v) -- just to make sure certain things are drawn before or after others, too lazy to actually sort table
+			if typeof(v.Value) == 'number' then
+				CPos = CPos + 25;
+
+				local BaseSize = Vector2.new(BaseSize.X, 30);
+				local BasePosition = shared.MenuDrawingData.Instances.Filling.Position + Vector2.new(0, CPos - 10);
+
+				local Text = Menu:AddMenuInstace(Format('%s_Text', v.Name), NewDrawing'Text'{
+					Text = v.Text;
+					Size = 20;
+					Position = BasePosition + Vector2.new(20, -10);
+					Visible = true;
+					Color = Colors.Primary.Dark;
+				});
+				local AMT = Menu:AddMenuInstace(Format('%s_AmountText', v.Name), NewDrawing'Text'{
+					Text = tostring(v.Value);
+					Size = 20;
+					Position = BasePosition;
+					Visible = true;
+					Color = Colors.Primary.Dark;
+				});
+				local Line = Menu:AddMenuInstace(Format('%s_SliderLine', v.Name), NewDrawing'Line'{
+					Transparency = 1;
+					Color = Colors.Primary.Dark;
+					Thickness = 3;
+					Visible = true;
+					From = BasePosition + Vector2.new(20, 20);
+					To = BasePosition + Vector2.new(BaseSize.X - 10, 20);
+				});
+				CPos = CPos + 10;
+				local Slider = Menu:AddMenuInstace(Format('%s_Slider', v.Name), NewDrawing'Circle'{
+					Visible = true;
+					Filled = true;
+					Radius = 6;
+					Color = Colors.Secondary.Dark;
+					Position = BasePosition + Vector2.new(35, 20);
+				})
+
+				local CSlider = {Slider = Slider; Line = Line; Min = v.AllArgs[4]; Max = v.AllArgs[5]; Option = v};
+				Sliders[#Sliders + 1] = CSlider;
+
+				-- local Percent = (v.Value / CSlider.Max) * 100;
+				-- local Size = math.abs(Line.From.X - Line.To.X);
+				-- local Value = Size * (Percent / 100); -- this shit's inaccurate but fuck it i'm not even gonna bother fixing it
+
+				Slider.Position = BasePosition + Vector2.new(40, 20);
+
+				v.BaseSize = BaseSize;
+				v.BasePosition = BasePosition;
+				AMT.Position = BasePosition + Vector2.new(BaseSize.X - AMT.TextBounds.X - 10, -10)
+			end
+		end)
+		GetTableData(Options)(function(i, v) -- just to make sure certain things are drawn before or after others, too lazy to actually sort table
+			if typeof(v.Value) == 'EnumItem' then
+				CPos = CPos + 30;
+
+				local BaseSize = Vector2.new(BaseSize.X, 30);
+				local BasePosition = shared.MenuDrawingData.Instances.Filling.Position + Vector2.new(0, CPos - 10);
+
+				UIButtons[#UIButtons + 1] = {
+					Option = v;
+					Instance = Menu:AddMenuInstace(Format('%s_Hitbox', v.Name), NewDrawing'Square'{
+						Size = Vector2.new(BaseSize.X, 20) - Vector2.new(30, 0);
+						Visible = true;
+						Transparency= .5;
+						Position = BasePosition + Vector2.new(15, -10);
+						Color = Colors.Secondary.Light;
+						Filled = true;
+					});
+				};
+				local Text = Menu:AddMenuInstace(Format('%s_Text', v.Name), NewDrawing'Text'{
+					Text = v.Text;
+					Size = 20;
+					Position = BasePosition + Vector2.new(20, -10);
+					Visible = true;
+					Color = Colors.Primary.Dark;
+				});
+				local BindText = Menu:AddMenuInstace(Format('%s_BindText', v.Name), NewDrawing'Text'{
+					Text = tostring(v.Value):match'%w+%.%w+%.(.+)';
+					Size = 20;
+					Position = BasePosition;
+					Visible = true;
+					Color = Colors.Primary.Dark;
+				});
+
+				Options[i].BaseSize = BaseSize;
+				Options[i].BasePosition = BasePosition;
+				BindText.Position = BasePosition + Vector2.new(BaseSize.X - BindText.TextBounds.X - 20, -10);
+			end
+		end)
+		GetTableData(Options)(function(i, v) -- just to make sure certain things are drawn before or after others, too lazy to actually sort table
+			if typeof(v.Value) == 'function' then
+				local BaseSize = Vector2.new(BaseSize.X, 30);
+				local BasePosition = shared.MenuDrawingData.Instances.Filling.Position + Vector2.new(0, CPos + (25 * v.AllArgs[4]) - 35);
+
+				UIButtons[#UIButtons + 1] = {
+					Option = v;
+					Instance = Menu:AddMenuInstace(Format('%s_Hitbox', v.Name), NewDrawing'Square'{
+						Size = Vector2.new(BaseSize.X, 20) - Vector2.new(30, 0);
+						Visible = true;
+						Transparency= .5;
+						Position = BasePosition + Vector2.new(15, -10);
+						Color = Colors.Secondary.Light;
+						Filled = true;
+					});
+				};
+				local Text = Menu:AddMenuInstace(Format('%s_Text', v.Name), NewDrawing'Text'{
+					Text = v.Text;
+					Size = 20;
+					Position = BasePosition + Vector2.new(20, -10);
+					Visible = true;
+					Color = Colors.Primary.Dark;
+				});
+
+				-- BindText.Position = BasePosition + Vector2.new(BaseSize.X - BindText.TextBounds.X - 10, -10);
+			end
+		end)
+
+		delay(.1, function()
+			MenuLoaded = true;
+		end);
+
+		-- this has to be at the bottom cuz proto drawing api doesnt have zindex :triumph:
+		Menu:AddMenuInstace('Cursor1', NewDrawing'Line'{
+			Visible = false;
+			Color = Color3.new(1, 0, 0);
+			Transparency = 1;
+			Thickness = 2;
+		});
+		Menu:AddMenuInstace('Cursor2', NewDrawing'Line'{
+			Visible = false;
+			Color = Color3.new(1, 0, 0);
+			Transparency = 1;
+			Thickness = 2;
+		});
+		Menu:AddMenuInstace('Cursor3', NewDrawing'Line'{
+			Visible = false;
+			Color = Color3.new(1, 0, 0);
+			Transparency = 1;
+			Thickness = 2;
+		});
+	end
+
+	CreateMenu();
+
+	shared.InputBeganCon = UserInputService.InputBegan:connect(function(input)
+		if input.UserInputType.Name == 'MouseButton1' and Options.MenuOpen.Value then
+			MouseHeld = true;
+			local Bar = Menu:GetInstance'TopBar';
+			local Values = {
+				Bar.Position.X;
+				Bar.Position.Y;
+				Bar.Position.X + Bar.Size.X;
+				Bar.Position.Y + Bar.Size.Y;
+			}
+			if MouseHoveringOver(Values) and not syn then -- disable dragging for synapse cuz idk why it breaks
+				DraggingUI = false; -- also breaks for other exploits
+				DragOffset = Menu:GetInstance'Main'.Position - GetMouseLocation();
+			else
+				for i, v in pairs(Sliders) do
+					local Values = {
+						v.Line.From.X - (v.Slider.Radius);
+						v.Line.From.Y - (v.Slider.Radius);
+						v.Line.To.X + (v.Slider.Radius);
+						v.Line.To.Y + (v.Slider.Radius);
+					};
+					if MouseHoveringOver(Values) then
+						DraggingWhat = v;
+						Dragging = true;
+						break
+					end
+				end
+			end
+		end
+	end)
+	shared.InputEndedCon = UserInputService.InputEnded:connect(function(input)
+		if input.UserInputType.Name == 'MouseButton1' and Options.MenuOpen.Value then
+			MouseHeld = false;
+			for i, v in pairs(UIButtons) do
+				local Values = {
+					v.Instance.Position.X;
+					v.Instance.Position.Y;
+					v.Instance.Position.X + v.Instance.Size.X;
+					v.Instance.Position.Y + v.Instance.Size.Y;
+				};
+				if MouseHoveringOver(Values) then
+					v.Option();
+					break -- prevent clicking 2 options
+				end
+			end
+		elseif input.UserInputType.Name == 'Keyboard' then
+			if Binding then
+				BindedKey = input.KeyCode;
+				Binding = false;
+			elseif input.KeyCode == Options.MenuKey.Value or (input.KeyCode == Enum.KeyCode.Home and UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)) then
+				Options.MenuOpen();
+			end
+		end
+	end)
+
+	function ToggleMenu()
+		if Options.MenuOpen.Value then
+			GetTableData(shared.MenuDrawingData.Instances)(function(i, v)
+				if OldData[v] then
+					pcall(Set, v, 'Visible', true);
+				end
+			end)
+		else
+			-- GUIService:SetMenuIsOpen(false);
+			GetTableData(shared.MenuDrawingData.Instances)(function(i, v)
+				if v.Visible == true then
+					OldData[v] = true;
+					pcall(Set, v, 'Visible', false);
+				end
+			end)
+		end
+	end
+
+	function CheckRay(Player, Distance, Position, Unit)
+		local Pass = true;
+
+		if Distance > 999 then return false; end
+
+		local _Ray = Ray.new(Position, Unit * Distance);
+
+		local List = {LocalPlayer.Character, Camera, Mouse.TargetFilter};
+
+		for i,v in pairs(IgnoreList) do table.insert(List, v); end;
+
+		local Hit = workspace:FindPartOnRayWithIgnoreList(_Ray, List);
+		if Hit and not Hit:IsDescendantOf(Player.Character) then
+			Pass = false;
+			if Hit.Transparency >= .3 or not Hit.CanCollide and Hit.ClassName ~= Terrain then -- Detect invisible walls
+				IgnoreList[#IgnoreList + 1] = Hit;
+			end
+		end
+
+		return Pass;
+	end
+
+	function CheckPlayer(Player)
+		if not Options.Enabled.Value then return false end
+
+		local Pass = true;
+		local Distance = 0;
+
+		if Player ~= LocalPlayer and Player.Character then
+			if not Options.ShowTeam.Value and Player.TeamColor == LocalPlayer.TeamColor then
+				Pass = false;
+			end
+
+			local Head = Player.Character:FindFirstChild'Head';
+
+			if Pass and Player.Character and Head then
+				Distance = (Camera.CFrame.p - Head.Position).magnitude;
+				if Options.VisCheck.Value then
+					Pass = CheckRay(Player, Distance, Camera.CFrame.p, (Head.Position - Camera.CFrame.p).unit);
+				end
+				if Distance > Options.MaxDistance.Value then
+					Pass = false;
+				end
+			end
+		else
+			Pass = false;
+		end
+
+		return Pass, Distance;
+	end
+
+	function UpdatePlayerData()
+		if (tick() - LastRefresh) > (Options.RefreshRate.Value / 1000) then
+			LastRefresh = tick();
+			for i, v in pairs(Players:GetPlayers()) do
+				local Data = shared.PlayerData[v.Name] or { Instances = {} };
+
+				Data.Instances['Box'] = Data.Instances['Box'] or LineBox:Create{Thickness = 3};
+				Data.Instances['Tracer'] = Data.Instances['Tracer'] or NewDrawing'Line'{
+					Transparency = 1;
+					Thickness = 2;
+				}
+				Data.Instances['HeadDot'] = Data.Instances['HeadDot'] or NewDrawing'Circle'{
+					Filled = true;
+					NumSides = 30;
+				}
+				Data.Instances['NameTag'] = Data.Instances['NameTag'] or NewDrawing'Text'{
+					Size = Options.TextSize.Value;
+					Center = true;
+					Outline = Options.TextOutline.Value;
+					Visible = true;
+				};
+				Data.Instances['DistanceHealthTag'] = Data.Instances['DistanceHealthTag'] or NewDrawing'Text'{
+					Size = Options.TextSize.Value - 1;
+					Center = true;
+					Outline = Options.TextOutline.Value;
+					Visible = true;
+				};
+
+				local NameTag = Data.Instances['NameTag'];
+				local DistanceTag = Data.Instances['DistanceHealthTag'];
+				local Tracer = Data.Instances['Tracer'];
+				local HeadDot = Data.Instances['HeadDot'];
+				local Box = Data.Instances['Box'];
+
+				local Pass, Distance = CheckPlayer(v);
+
+				if Pass and v.Character then
+					Data.LastUpdate = tick();
+					local Humanoid = v.Character:FindFirstChildOfClass'Humanoid';
+					local Head = v.Character:FindFirstChild'Head';
+					local HumanoidRootPart = v.Character:FindFirstChild'HumanoidRootPart';
+					if v.Character ~= nil and Head then
+						local ScreenPosition, Vis = Camera:WorldToViewportPoint(Head.Position);
+						if Vis then
+							local Color = v.TeamColor == LocalPlayer.TeamColor and Green or Red;
+
+							local ScreenPositionUpper = Camera:WorldToViewportPoint(Head.CFrame * CFrame.new(0, Head.Size.Y, 0).p);
+							local Scale = Head.Size.Y / 2;
+
+							if Options.ShowName.Value then
+								NameTag.Visible = true;
+								NameTag.Text = v.Name;
+								NameTag.Size = Options.TextSize.Value;
+								NameTag.Outline = Options.TextOutline.Value;
+								NameTag.Position = Vector2.new(ScreenPositionUpper.X, ScreenPositionUpper.Y);
+								NameTag.Color = Color;
+								if Drawing.Fonts then -- CURRENTLY SYNAPSE ONLY :MEGAHOLY:
+									NameTag.Font = Drawing.Fonts.UI;
+								end
+							else
+								NameTag.Visible = false;
+							end
+							if Options.ShowDistance.Value or Options.ShowHealth.Value then
+								DistanceTag.Visible = true;
+								DistanceTag.Size = Options.TextSize.Value - 1;
+								DistanceTag.Outline = Options.TextOutline.Value;
+								DistanceTag.Color = Color3.new(1, 1, 1);
+								if Drawing.Fonts then -- CURRENTLY SYNAPSE ONLY :MEGAHOLY:
+									NameTag.Font = Drawing.Fonts.UI;
+								end
+
+								local Str = '';
+
+								if Options.ShowDistance.Value then
+									Str = Str .. Format('[%d] ', Distance);
+								end
+								if Options.ShowHealth.Value and Humanoid then
+									Str = Str .. Format('[%d/100]', Humanoid.Health / Humanoid.MaxHealth * 100);
+								end
+
+								DistanceTag.Text = Str;
+								DistanceTag.Position = Vector2.new(ScreenPositionUpper.X, ScreenPositionUpper.Y) + Vector2.new(0, NameTag.Size);
+							else
+								DistanceTag.Visible = false;
+							end
+							if Options.ShowDot.Value then
+								local Top = Camera:WorldToViewportPoint((Head.CFrame * CFrame.new(0, Scale, 0)).p);
+								local Bottom = Camera:WorldToViewportPoint((Head.CFrame * CFrame.new(0, -Scale, 0)).p);
+								local Radius = (Top - Bottom).y;
+
+								HeadDot.Visible = true;
+								HeadDot.Color = Color;
+								HeadDot.Position = Vector2.new(ScreenPosition.X, ScreenPosition.Y);
+								HeadDot.Radius = Radius;
+							else
+								HeadDot.Visible = false;
+							end
+							if Options.ShowTracers.Value then
+								Tracer.Visible = true;
+								Tracer.From = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y);
+								Tracer.To = Vector2.new(ScreenPosition.X, ScreenPosition.Y);
+								Tracer.Color = Color;
+							else
+								Tracer.Visible = false;
+							end
+							if Options.ShowBoxes.Value and HumanoidRootPart then
+								Box:Update(HumanoidRootPart.CFrame, Vector3.new(2, 3, 0) * (Scale * 2), Color);
+							else
+								Box:SetVisible(false);
+							end
+						else
+							NameTag.Visible = false;
+							DistanceTag.Visible = false;
+							Tracer.Visible = false;
+							HeadDot.Visible = false;
+
+							Box:SetVisible(false);
+						end
+					end
+				else
+					NameTag.Visible = false;
+					DistanceTag.Visible = false;
+					Tracer.Visible = false;
+					HeadDot.Visible = false;
+
+					Box:SetVisible(false);
+				end
+
+				shared.PlayerData[v.Name] = Data;
+			end
+		end
+	end
+
+	function Update()
+		for i, v in pairs(shared.PlayerData) do
+			if not Players:FindFirstChild(tostring(i)) then
+				GetTableData(v.Instances)(function(i, obj)
+					obj.Visible = false;
+					obj:Remove();
+					v.Instances[i] = nil;
+				end)
+				shared.PlayerData[i] = nil;
+			end
+		end
+
+		local CX = Menu:GetInstance'CrosshairX';
+		local CY = Menu:GetInstance'CrosshairY';
+		if Options.Crosshair.Value then
+			CX.Visible = true;
+			CY.Visible = true;
+
+			CX.To = Vector2.new((Camera.ViewportSize.X / 2) - 8, (Camera.ViewportSize.Y / 2));
+			CX.From = Vector2.new((Camera.ViewportSize.X / 2) + 8, (Camera.ViewportSize.Y / 2));
+			CY.To = Vector2.new((Camera.ViewportSize.X / 2), (Camera.ViewportSize.Y / 2) - 8);
+			CY.From = Vector2.new((Camera.ViewportSize.X / 2), (Camera.ViewportSize.Y / 2) + 8);
+		else
+			CX.Visible = false;
+			CY.Visible = false;
+		end
+
+		if Options.MenuOpen.Value and MenuLoaded then
+			local MLocation = GetMouseLocation();
+			shared.MenuDrawingData.Instances.Main.Color = Color3.fromHSV(tick() * 24 % 255/255, 1, 1);
+			local MainInstance = Menu:GetInstance'Main';
+			local Values = {
+				MainInstance.Position.X;
+				MainInstance.Position.Y;
+				MainInstance.Position.X + MainInstance.Size.X;
+				MainInstance.Position.Y + MainInstance.Size.Y;
+			};
+			if MainInstance and MouseHoveringOver(Values) then
+				Debounce.CursorVis = true;
+				-- GUIService:SetMenuIsOpen(true);
+				Menu:UpdateMenuInstance'Cursor1'{
+					Visible = true;
+					From = Vector2.new(MLocation.x, MLocation.y);
+					To = Vector2.new(MLocation.x + 5, MLocation.y + 6);
+				}
+				Menu:UpdateMenuInstance'Cursor2'{
+					Visible = true;
+					From = Vector2.new(MLocation.x, MLocation.y);
+					To = Vector2.new(MLocation.x, MLocation.y + 8);
+				}
+				Menu:UpdateMenuInstance'Cursor3'{
+					Visible = true;
+					From = Vector2.new(MLocation.x, MLocation.y + 6);
+					To = Vector2.new(MLocation.x + 5, MLocation.y + 5);
+				}
+			else
+				if Debounce.CursorVis then
+					Debounce.CursorVis = false;
+					-- GUIService:SetMenuIsOpen(false);
+					Menu:UpdateMenuInstance'Cursor1'{Visible = false};
+					Menu:UpdateMenuInstance'Cursor2'{Visible = false};
+					Menu:UpdateMenuInstance'Cursor3'{Visible = false};
+				end
+			end
+			if MouseHeld then
+				if Dragging then
+					DraggingWhat.Slider.Position = Vector2.new(math.clamp(MLocation.X, DraggingWhat.Line.From.X, DraggingWhat.Line.To.X), DraggingWhat.Slider.Position.Y);
+					local Percent = (DraggingWhat.Slider.Position.X - DraggingWhat.Line.From.X) / ((DraggingWhat.Line.To.X - DraggingWhat.Line.From.X));
+					local Value = CalculateValue(DraggingWhat.Min, DraggingWhat.Max, Percent);
+					DraggingWhat.Option(Value);
+				elseif DraggingUI then
+					Debounce.UIDrag = true;
+					local Main = Menu:GetInstance'Main';
+					local MousePos = GetMouseLocation();
+					Main.Position = MousePos + DragOffset;
+				end
+			else
+				Dragging = false;
+				if DraggingUI and Debounce.UIDrag then
+					Debounce.UIDrag = false;
+					DraggingUI = false;
+					CreateMenu(Menu:GetInstance'Main'.Position);
+				end
+			end
+			if not Debounce.Menu then
+				Debounce.Menu = true;
+				ToggleMenu();
+			end
+		elseif Debounce.Menu and not Options.MenuOpen.Value then
+			Debounce.Menu = false;
+			ToggleMenu();
+		end
+	end
+
+	RunService:UnbindFromRenderStep(GetDataName);
+	RunService:UnbindFromRenderStep(UpdateName);
+
+	RunService:BindToRenderStep(GetDataName, 1, UpdatePlayerData);
+	RunService:BindToRenderStep(UpdateName, 1, Update);
+end)
+
+UICorner_26.Parent = UnnamedESP_2
+
+UICorner_27.Parent = UnnamedESP
+
+Side_5.Name = "Side"
+Side_5.Parent = UnnamedESP
+Side_5.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+Side_5.BorderSizePixel = 0
+Side_5.Position = UDim2.new(-0.00041947799, 0, 0, 0)
+Side_5.Size = UDim2.new(0, 8, 0, 162)
+
+UICorner_28.CornerRadius = UDim.new(0, 4)
+UICorner_28.Parent = Side_5
+
+TracerESP.Name = "TracerESP"
+TracerESP.Parent = Visual
+TracerESP.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TracerESP.BorderSizePixel = 0
+TracerESP.Position = UDim2.new(0.0315533988, 0, 0.037837863, 0)
+TracerESP.Size = UDim2.new(0, 385, 0, 162)
+
+TextLabel_14.Parent = TracerESP
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(35, 47, 62)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.196870074, 0, -0.00273886276, 0)
+TextLabel_14.Size = UDim2.new(0, 233, 0, 43)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "Tracer ESP"
+TextLabel_14.TextColor3 = Color3.fromRGB(18, 98, 159)
+TextLabel_14.TextSize = 14.000
+
+TracerESP_2.Name = "TracerESP"
+TracerESP_2.Parent = TracerESP
+TracerESP_2.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+TracerESP_2.BorderSizePixel = 0
+TracerESP_2.Position = UDim2.new(0.0480952263, 0, 0.262693226, 0)
+TracerESP_2.Size = UDim2.new(0, 358, 0, 110)
+TracerESP_2.Font = Enum.Font.SourceSans
+TracerESP_2.Text = "Tracer ESP"
+TracerESP_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TracerESP_2.TextSize = 14.000
+TracerESP_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fernandoagoncalves/universal-esp/main/esp.lua", true))()
+end)
+
+UICorner_29.Parent = TracerESP_2
+
+UICorner_30.Parent = TracerESP
+
+Side_6.Name = "Side"
+Side_6.Parent = TracerESP
+Side_6.BackgroundColor3 = Color3.fromRGB(18, 98, 159)
+Side_6.BorderSizePixel = 0
+Side_6.Position = UDim2.new(-0.00041947799, 0, 0, 0)
+Side_6.Size = UDim2.new(0, 8, 0, 162)
+
+UICorner_31.CornerRadius = UDim.new(0, 4)
+UICorner_31.Parent = Side_6
+
+Side_7.Name = "Side"
+Side_7.Parent = Main
+Side_7.BackgroundColor3 = Color3.fromRGB(28, 41, 56)
+Side_7.Position = UDim2.new(-0.119999997, 0, 0, 0)
+Side_7.Size = UDim2.new(0, 83, 0, 370)
+
+UICorner_32.Parent = Side_7
+
+Side_8.Name = "Side"
+Side_8.Parent = Side_7
+Side_8.BackgroundColor3 = Color3.fromRGB(28, 41, 56)
+Side_8.BorderSizePixel = 0
+Side_8.Position = UDim2.new(0.640428364, 0, 0, 0)
+Side_8.Size = UDim2.new(0, 39, 0, 370)
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = Side_7
+HomeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeButton.BackgroundTransparency = 1.000
+HomeButton.BorderSizePixel = 0
+HomeButton.Position = UDim2.new(0.249745652, 0, 0.0486486144, 0)
+HomeButton.Size = UDim2.new(0, 55, 0, 55)
+HomeButton.Image = "http://www.roblox.com/asset/?id=7360645538"
+
+VisualsButton.Name = "VisualsButton"
+VisualsButton.Parent = Side_7
+VisualsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VisualsButton.BackgroundTransparency = 1.000
+VisualsButton.BorderSizePixel = 0
+VisualsButton.Position = UDim2.new(0.237697363, 0, 0.810810804, 0)
+VisualsButton.Size = UDim2.new(0, 55, 0, 55)
+VisualsButton.Image = "http://www.roblox.com/asset/?id=6523858394"
+
+CrateButton.Name = "CrateButton"
+CrateButton.Parent = Side_7
+CrateButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CrateButton.BackgroundTransparency = 1.000
+CrateButton.BorderSizePixel = 0
+CrateButton.Position = UDim2.new(0.0740563869, 0, 0.521621644, 0)
+CrateButton.Size = UDim2.new(0, 83, 0, 83)
+CrateButton.Image = "http://www.roblox.com/asset/?id=7702484790"
+
+AdvantagesButton.Name = "AdvantagesButton"
+AdvantagesButton.Parent = Side_7
+AdvantagesButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdvantagesButton.BackgroundTransparency = 1.000
+AdvantagesButton.BorderSizePixel = 0
+AdvantagesButton.Position = UDim2.new(0.249745607, 0, 0.294594586, 0)
+AdvantagesButton.Size = UDim2.new(0, 55, 0, 55)
+AdvantagesButton.Image = "http://www.roblox.com/asset/?id=183247080"
+
+-- Scripts:
+
+local function USHR_fake_script() -- HomeButton.LocalScript 
+	local script = Instance.new('LocalScript', HomeButton)
+
+	local homebutton = script.Parent
+	local advantages = homebutton.Parent.Parent.Advantages
+	local crates = homebutton.Parent.Parent.Crates
+	local home = homebutton.Parent.Parent.Home
+	local visual = homebutton.Parent.Parent.Visual
+
+	homebutton.MouseButton1Click:connect(function()
+		advantages.Visible = false
+		home.Visible = true
+		crates.Visible = false
+		visual.Visible = false
+	end)
+
+end
+coroutine.wrap(USHR_fake_script)()
+local function DYNCNCI_fake_script() -- VisualsButton.LocalScript 
+	local script = Instance.new('LocalScript', VisualsButton)
+
+	local homebutton = script.Parent
+	local advantages = homebutton.Parent.Parent.Advantages
+	local crates = homebutton.Parent.Parent.Crates
+	local home = homebutton.Parent.Parent.Home
+	local visual = homebutton.Parent.Parent.Visual
+
+	homebutton.MouseButton1Click:connect(function()
+		advantages.Visible = false
+		home.Visible = false
+		crates.Visible = false
+		visual.Visible = true
+	end)
+
+end
+coroutine.wrap(DYNCNCI_fake_script)()
+local function XVIOY_fake_script() -- CrateButton.LocalScript 
+	local script = Instance.new('LocalScript', CrateButton)
+
+	local homebutton = script.Parent
+	local advantages = homebutton.Parent.Parent.Advantages
+	local crates = homebutton.Parent.Parent.Crates
+	local home = homebutton.Parent.Parent.Home
+	local visual = homebutton.Parent.Parent.Visual
+
+	homebutton.MouseButton1Click:connect(function()
+		advantages.Visible = false
+		home.Visible = false
+		crates.Visible = true
+		visual.Visible = false
+	end)
+
+end
+coroutine.wrap(XVIOY_fake_script)()
+local function YKOB_fake_script() -- AdvantagesButton.LocalScript 
+	local script = Instance.new('LocalScript', AdvantagesButton)
+
+	local homebutton = script.Parent
+	local advantages = homebutton.Parent.Parent.Advantages
+	local crates = homebutton.Parent.Parent.Crates
+	local home = homebutton.Parent.Parent.Home
+	local visual = homebutton.Parent.Parent.Visual
+
+	homebutton.MouseButton1Click:connect(function()
+		advantages.Visible = true
+		home.Visible = false
+		crates.Visible = false
+		visual.Visible = false
+	end)
+
+end
+coroutine.wrap(YKOB_fake_script)()
